@@ -1,0 +1,192 @@
+calico 安装和配置
+
+机器：
+vm1 192.168.1.4
+vm2 192.168.1.3
+vm3 192.168.1.5
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+三台机器安装dockerd：
+liuhy@vm1 ~ $ dockerd -v
+Docker version 17.03.2-ce, build f5ec1e2
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+三台机器安装calicoctl：
+liuhy@vm1 ~ $ calicoctl version
+Client Version:    v1.6.1
+Build date:        2017-09-28T01:12:35+0000
+Git commit:        1724e011
+Cluster Version:   unknown
+Cluster Type:      unknown
+
+
+wget -O /usr/local/bin/calicoctl   https://github.com/projectcalico/calico-containers/releases/download/v1.6.1/calicoctl 
+chmod +777 /usr/local/bin/calicoctl
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+三台机器的存储使用vm1一台机器上的etcd存储：
+
+vm1 配置：
+cat  /lib/systemd/system/docker.service 
+ExecStart=/usr/bin/dockerd   -H unix:///var/run/docker.sock   --cluster-store=etcd://192.168.1.4:2379
+
+vm2 配置：
+cat  /lib/systemd/system/docker.service 
+ExecStart=/usr/bin/dockerd   -H unix:///var/run/docker.sock   --cluster-store=etcd://192.168.1.4:2379
+
+
+vm3 配置：
+cat  /lib/systemd/system/docker.service 
+ExecStart=/usr/bin/dockerd   -H unix:///var/run/docker.sock   --cluster-store=etcd://192.168.1.4:2379
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+vm1 安装：etcd:v2.3.6
+export HostIP=192.168.1.4
+docker run -v /usr/share/ca-certificates/:/etc/ssl/certs -p 4001:4001 -p 2380:2380 -p 2379:2379 \
+--name etcd quay.io/coreos/etcd:v2.3.6 \
+-name etcd0 \
+-advertise-client-urls http://${HostIP}:2379,http://${HostIP}:4001 \
+-listen-client-urls http://0.0.0.0:2379,http://0.0.0.0:4001 \
+-initial-advertise-peer-urls http://${HostIP}:2380 \
+-listen-peer-urls http://0.0.0.0:2380 \
+-initial-cluster-token etcd-cluster-1 \
+-initial-cluster etcd0=http://${HostIP}:2380 \
+-initial-cluster-state new
+
+安装成功测试：
+docker exec etcd /etcdctl set foo bar
+docker exec etcd /etcdctl get foo
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+三台机器上建立文件：
+
+vm1 vm2 vm3:
+cat /etc/calico/calicoctl.cfg 
+内容是：
+apiVersion: v1
+kind: calicoApiConfig
+metadata:
+spec:
+  datastoreType: "etcdv2"
+  etcdEndpoints: "http://192.168.1.4:2379"
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+在vm1上启动calico/node:v1.0.0-beta：
+注意 HOSTNAME=192.168.1.4
+docker run  --net=host --privileged --name=calico-node -e IP6= -e NO_DEFAULT_POOLS= -e ETCD_SCHEME= -e CALICO_LIBNETWORK_ENABLED=true -e HOSTNAME=192.168.1.4 -e AS= -e ETCD_ENDPOINTS=http://192.168.1.4:2379 -e ETCD_AUTHORITY= -e IP= -e CALICO_NETWORKING_BACKEND=bird -v /var/run/calico:/var/run/calico -v /lib/modules:/lib/modules -v /run/docker/plugins:/run/docker/plugins -v /var/run/docker.sock:/var/run/docker.sock -v /var/log/calico:/var/log/calico calico/node:v1.0.0-beta
+
+在vm2上启动calico/node:v1.0.0-beta：
+注意 HOSTNAME=192.168.1.3
+docker run  --net=host --privileged --name=calico-node -e IP6= -e NO_DEFAULT_POOLS= -e ETCD_SCHEME= -e CALICO_LIBNETWORK_ENABLED=true -e HOSTNAME=192.168.1.3 -e AS= -e ETCD_ENDPOINTS=http://192.168.1.4:2379 -e ETCD_AUTHORITY= -e IP= -e CALICO_NETWORKING_BACKEND=bird -v /var/run/calico:/var/run/calico -v /lib/modules:/lib/modules -v /run/docker/plugins:/run/docker/plugins -v /var/run/docker.sock:/var/run/docker.sock -v /var/log/calico:/var/log/calico calico/node:v1.0.0-beta
+
+在vm3上启动calico/node:v1.0.0-beta：
+注意 HOSTNAME=192.168.1.5
+docker run  --net=host --privileged --name=calico-node -e IP6= -e NO_DEFAULT_POOLS= -e ETCD_SCHEME= -e CALICO_LIBNETWORK_ENABLED=true -e HOSTNAME=192.168.1.5 -e AS= -e ETCD_ENDPOINTS=http://192.168.1.4:2379 -e ETCD_AUTHORITY= -e IP= -e CALICO_NETWORKING_BACKEND=bird -v /var/run/calico:/var/run/calico -v /lib/modules:/lib/modules -v /run/docker/plugins:/run/docker/plugins -v /var/run/docker.sock:/var/run/docker.sock -v /var/log/calico:/var/log/calico calico/node:v1.0.0-beta
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+测试：
+liuhy@vm1 ~ $ calicoctl get node
+NAME          
+192.168.1.3   
+192.168.1.4   
+192.168.1.5   
+
+liuhy@vm1 ~ $ sudo calicoctl node status
+[sudo] password for liuhy: 
+Calico process is running.
+
+IPv4 BGP status
++--------------+-------------------+-------+----------+-------------+
+| PEER ADDRESS |     PEER TYPE     | STATE |  SINCE   |    INFO     |
++--------------+-------------------+-------+----------+-------------+
+| 192.168.1.3  | node-to-node mesh | up    | 10:16:40 | Established |
+| 192.168.1.5  | node-to-node mesh | up    | 10:17:00 | Established |
++--------------+-------------------+-------+----------+-------------+
+
+IPv6 BGP status
+No IPv6 peers found.
+
+则显示以上信息则正常
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+配置网络 IP Pool
+
+通过如下命令可以查看 calico 的默认 ip pool
+calicoctl get ipPool
+CIDR                       
+192.168.0.0/16             
+fd80:24e2:f998:72d6::/64   
+
+
+建立yaml文件
+liuhy@vm1 ~ $ cat calico.yaml 
+- apiVersion: v1
+  kind: ipPool
+  metadata:
+    cidr: 10.10.0.0/16
+  spec:
+    ipip:
+      enabled: true
+    nat-outgoing: true
+
+建立网络命令：
+calicoctl create -f calico.yaml
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+网络创建
+
+docker network create --driver calico --ipam-driver calico-ipam net1
+
+docker network create --driver calico --ipam-driver calico-ipam net2
+
+docker network ls
+NETWORK ID          NAME                DRIVER
+c11b915fd760        bridge              bridge              
+9f5a5025c65a        host                host                
+8787da6413ac        net1                calico              
+32cd38e0980b        net2                calico              
+20a70c2f57c1        none                null     
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+跨主机通讯验证
+在第一个节点上创建如下容器：
+
+docker run --net net1 --name workload-A -tid busybox
+
+docker run --net net2 --name workload-B -tid busybox
+
+docker run --net net1 --name workload-C -tid busybox
+在第二个节点上创建如下容器：
+
+docker run --net net2 --name workload-D -tid busybox
+
+docker run --net net1 --name workload-E -tid busybox
+通过 ping 命令查看网络连通性：
+
+docker exec workload-A ping -c 4 workload-C //同主机通讯同网络通讯
+PING workload-C (10.10.86.194): 56 data bytes
+64 bytes from 10.10.86.194: seq=0 ttl=63 time=0.080 ms
+64 bytes from 10.10.86.194: seq=1 ttl=63 time=0.105 ms
+64 bytes from 10.10.86.194: seq=2 ttl=63 time=0.050 ms
+64 bytes from 10.10.86.194: seq=3 ttl=63 time=0.055 ms
+
+docker exec workload-A ping -c 4 workload-E //跨主机通讯同网络通讯
+PING workload-E (10.10.48.65): 56 data bytes
+64 bytes from 10.10.48.65: seq=0 ttl=62 time=0.584 ms
+64 bytes from 10.10.48.65: seq=1 ttl=62 time=0.491 ms
+64 bytes from 10.10.48.65: seq=2 ttl=62 time=0.843 ms
+64 bytes from 10.10.48.65: seq=3 ttl=62 time=0.551 ms
+
+docker exec workload-A ping -c 4 workload-B //同主机不同网络通讯
+ping: bad address 'workload-B'
+
+docker exec workload-A ping -c 4 workload-D //跨主机不同网络通讯
+ping: bad address 'workload-D'
+
+
+
+
+
