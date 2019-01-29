@@ -1,0 +1,25 @@
+设置本地代理服务地址 下载远程数据:
+
+方法:
+1:
+export http_proxy=http://127.0.0.1:8087
+
+2:
+-e 指定环境变量:
+wget https://dl.k8s.io/v1.13.1/kubernetes-server-linux-amd64.tar.gz -e "http_proxy=http://127.0.0.1:1080"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
