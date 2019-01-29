@@ -10,16 +10,28 @@ wget https://dl.k8s.io/v1.13.1/kubernetes-server-linux-amd64.tar.gz -e "http_pro
 
 
 
+参照:
+https://blog.csdn.net/wangjunsheng/article/details/86594245
+
+master:
+1:
+/usr/local/kube/kube-apiserver --etcd-servers http://127.0.0.1:2379 --insecure-bind-address 0.0.0.0 --insecure-port 8080 --service-cluster-ip-range 10.254.0.0/24 --service-node-port-range 1-65535 --admission-control "NamespaceLifecycle,LimitRanger,SecurityContextDeny,ResourceQuota" --logtostderr false --log-dir /var/log/kubernetes --v 2
+
+2:
+/usr/local/kube/kube-controller-manager  --master=http://127.0.0.1:8080 --logtostderr=true --log-dir /var/log/kubernetes --v=2
+
+3:
+/usr/local/kube/kube-scheduler --master=http://127.0.0.1:8080 --logtostderr=true --log-dir /var/log/kubernetes --v=2
 
 
 
+node:
+4:
+/usr/local/kube/kube-proxy  --hostname-override=10.26.6.101   --master=http://10.26.6.78:8080   --logtostderr=true
 
 
-
-
-
-
-
-
+5:
+/usr/bin/kubelet  --hostname-override=10.26.6.101 --kubeconfig=/k8s/cfg/bootstrap.kubeconfig --cluster-dns=10.254.0.2 --cluster-domain=cluster.local  \
+ --pod-infra-container-image=registry.access.redhat.com/rhel7/pod-infrastructure:latest  --logtostderr=true
 
 
