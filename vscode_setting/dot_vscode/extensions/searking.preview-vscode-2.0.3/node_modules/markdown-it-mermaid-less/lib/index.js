@@ -1,0 +1,8 @@
+"use strict";
+const markdown_it_mermaid_less_1 = require("./markdown-it-mermaid-less");
+const pluginFunc = ((md, options) => {
+    markdown_it_mermaid_less_1.mermaid_pro_plugin(md, options);
+});
+pluginFunc.mermaid2html = markdown_it_mermaid_less_1.mermaid2html;
+module.exports = pluginFunc;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQVdBLHlFQUlvQztBQU9wQyxNQUFNLFVBQVUsR0FBc0IsQ0FBQyxDQUNyQyxFQUFPLEVBQ1AsT0FBa0MsRUFDbEMsRUFBRTtJQUNGLDZDQUFrQixDQUFDLEVBQUUsRUFBRSxPQUFPLENBQUMsQ0FBQztBQUNsQyxDQUFDLENBQXNCLENBQUM7QUFFeEIsVUFBVSxDQUFDLFlBQVksR0FBRyx1Q0FBWSxDQUFDO0FBRXZDLGlCQUFTLFVBQWlCLENBQUMifQ==

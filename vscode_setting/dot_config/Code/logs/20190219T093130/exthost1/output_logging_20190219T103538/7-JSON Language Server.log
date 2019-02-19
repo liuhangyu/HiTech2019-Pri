@@ -1,0 +1,3 @@
+[Trace - 3:13:53 PM] Sending request 'shutdown - (20)'.
+[Trace - 3:13:53 PM] Received response 'shutdown - (20)' in 3ms.
+[Trace - 3:13:53 PM] Sending notification 'exit'.

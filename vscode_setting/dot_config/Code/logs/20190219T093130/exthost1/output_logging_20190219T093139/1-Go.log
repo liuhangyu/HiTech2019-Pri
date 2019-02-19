@@ -1,0 +1,7 @@
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/stretchr/testify/mock>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/stretchr/testify/mock/mock.go:524: exported func MatchedBy returns unexported type mock.argumentMatcher, which can be annoying to use
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/stretchr/testify/mock>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY4mt4S/go-code-check github.com/hyperledger/fabric-ca/vendor/github.com/stretchr/testify/mock
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/stretchr/testify/mock>Finished running tool: /usr/local/go/bin/go vet ./...
+

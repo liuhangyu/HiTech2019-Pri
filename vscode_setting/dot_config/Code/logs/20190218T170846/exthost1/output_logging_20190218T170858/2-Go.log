@@ -1,0 +1,11 @@
+/usr/local/go/src/database/sql>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goWR5Hv5/go-code-check .
+
+/usr/local/go/src/database/sql>Finished running tool: /home/liuhy/work/bin/golint
+/usr/local/go/src/database/sql/convert_test.go:416: don't use underscores in Go names; type Valuer_V should be ValuerV
+/usr/local/go/src/database/sql/convert_test.go:422: don't use underscores in Go names; type Valuer_P should be ValuerP
+/usr/local/go/src/database/sql/sql.go:82: don't use underscores in Go names; struct field _Named_Fields_Required should be _NamedFieldsRequired
+/usr/local/go/src/database/sql/sql.go:320: don't use underscores in Go names; struct field _Named_Fields_Required should be _NamedFieldsRequired
+/usr/local/go/src/database/sql/sql_test.go:3734: error var pingError should have name of the form errFoo
+
+/usr/local/go/src/database/sql>Finished running tool: /usr/local/go/bin/go vet ./...
+

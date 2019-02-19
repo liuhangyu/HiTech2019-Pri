@@ -1,0 +1,86 @@
+{
+	"name": "intellij-ish-darcula-theme",
+	"displayName": "IntelliJ-ish Darcula Theme",
+	"description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDE's.",
+	"version": "1.0.0",
+	"publisher": "csantiago132",
+	"author": {
+		"name": "Carlos Santiago"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/csantiago132/intellij-ish-darcula-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/csantiago132/intellij-ish-darcula-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"icon": "theme-icon.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "IntelliJ-ish Darcula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/IntelliJ-ish Darcula-color-theme.json"
+			}
+		]
+	},
+	"keywords": [
+		"intellij-theme",
+		"darcula",
+		"jetbrains ide",
+		"android studio"
+	],
+	"galleryBanner": {
+		"color": "#292B2E",
+		"theme": "dark"
+	},
+	"scripts": {
+		"publish": "vsce package && vsce publish",
+		"prettier:js": "./node_modules/.bin/prettier --config .prettierrc --write *.{js, jsx}",
+		"prettier:tsx": "./node_modules/.bin/prettier --config .prettierrc --write *.{tsx, ts}",
+		"prettier:json": "./node_modules/.bin/prettier --config .prettierrc  --write *.json",
+		"prettier:md": "./node_modules/.bin/prettier --config .prettierrc --print-width 80 --write *.md"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{tsx, ts}": [
+			"yarn run prettier:tsx",
+			"yarn run tslint",
+			"yarn run stylelint:css",
+			"git add"
+		],
+		"*.json": [
+			"yarn run prettier:json",
+			"git add"
+		],
+		"*.md": [
+			"yarn run prettier:md",
+			"git add"
+		],
+		"*.{jsx, js}": [
+			"yarn run prettier:js",
+			"git add"
+		]
+	},
+	"devDependencies": {
+		"husky": "^1.3.1",
+		"lint-staged": "^8.1.0",
+		"prettier": "^1.16.1"
+	},
+	"__metadata": {
+		"id": "21d0a2d5-785b-4bbe-b158-2fad8bf9add9",
+		"publisherId": "8437c43c-5588-4c58-8171-c210ac48fb2c",
+		"publisherDisplayName": "csantiago132"
+	}
+}

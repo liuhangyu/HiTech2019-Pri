@@ -1,0 +1,91 @@
+[2019-02-18 15:15:06.097] [exthost] [info] extension host started
+[2019-02-18 15:15:06.123] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:06.123] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-18 15:15:06.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:06.127] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-18 15:15:06.135] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:06.135] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-18 15:15:06.170] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:06.170] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-18 15:15:06.173] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:06.173] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/equinusocio.vsc-material-theme-2.7.0/out/src/material.theme.config
+[2019-02-18 15:15:06.185] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:06.185] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/pkief.material-icon-theme-3.6.3/out/src/extension
+[2019-02-18 15:15:06.231] [exthost] [info] eager extensions activated
+[2019-02-18 15:15:14.784] [exthost] [info] extension host started
+[2019-02-18 15:15:14.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:14.829] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-18 15:15:14.834] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:14.834] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-18 15:15:14.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:14.856] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-18 15:15:14.924] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:14.925] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-18 15:15:14.930] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:14.930] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/equinusocio.vsc-material-theme-2.7.0/out/src/material.theme.config
+[2019-02-18 15:15:14.946] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 15:15:14.946] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/pkief.material-icon-theme-3.6.3/out/src/extension
+[2019-02-18 15:15:15.006] [exthost] [info] eager extensions activated
+[2019-02-18 15:15:47.166] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.Go {"startup":false,"activationEvent":"onLanguage:go"}
+[2019-02-18 15:15:47.166] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goMain
+[2019-02-18 15:15:51.198] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:15:51.198] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/main.go -o 1007
+
+[2019-02-18 15:16:20.133] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:16:20.133] [exthost] [error] Check the console in dev tools to find errors when formatting.
+[2019-02-18 15:18:11.220] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:18:11.220] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/server.go -o 2957
+
+[2019-02-18 15:18:37.840] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:18:37.840] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/server.go -o 7658
+
+[2019-02-18 15:18:43.462] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:18:43.462] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/server.go -o 9698
+
+[2019-02-18 15:18:46.727] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:18:46.727] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/ca.go -o 3307
+
+[2019-02-18 15:19:13.249] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:19:13.249] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/ca.go -o 18038
+
+[2019-02-18 15:22:36.023] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:22:36.023] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /usr/local/go/src/database/sql/sql.go -o 11504
+godef: no identifier found
+
+[2019-02-18 15:22:37.025] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:22:37.025] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /usr/local/go/src/database/sql/sql.go -o 11125
+
+[2019-02-18 15:22:48.809] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:22:48.809] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /usr/local/go/src/database/sql/sql.go -o 11188
+godef: no identifier found
+
+[2019-02-18 15:22:50.873] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:22:50.873] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /usr/local/go/src/database/sql/sql.go -o 11195
+godef: no identifier found
+
+[2019-02-18 15:22:59.064] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:22:59.064] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil/util.go -o 9009
+
+[2019-02-18 15:36:17.622] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:36:17.622] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil/util.go -o 9802
+
+[2019-02-18 15:36:39.326] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.references-view {"startup":false,"activationEvent":"onCommand:references-view.find"}
+[2019-02-18 15:36:39.326] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.references-view/out/src/extension
+[2019-02-18 15:38:13.547] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 15:38:13.548] [exthost] [error] TypeError: Cannot read property 'forEach' of undefined
+	at convertToCodeSymbols (/home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goSymbol.js:23:19)
+	at provideWorkspaceSymbols.getWorkspaceSymbols.then.results (/home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goSymbol.js:44:13)
+[2019-02-18 16:30:45.492] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 16:30:45.492] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /usr/local/go/src/database/sql/sql.go -o 20633
+
+[2019-02-18 16:47:07.443] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 16:47:07.443] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/server.go -o 16520
+godef: no identifier found
+
+[2019-02-18 16:47:07.543] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 16:47:07.543] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/server.go -o 16792
+godef: no identifier found
+
+[2019-02-18 16:47:13.317] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 16:47:13.317] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /usr/local/go/src/net/http/server.go -o 74119
+

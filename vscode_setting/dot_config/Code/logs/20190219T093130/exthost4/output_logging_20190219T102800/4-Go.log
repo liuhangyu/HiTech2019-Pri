@@ -1,0 +1,4 @@
+/home/liuhy/work/src/watchhub/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/watchhub/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goyHomix/go-code-check watchhub/main
+

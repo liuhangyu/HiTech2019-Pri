@@ -1,0 +1,14 @@
+[2019-02-18 17:41:57.612] [exthost] [info] extension host started
+[2019-02-18 17:41:57.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:41:57.628] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-18 17:41:57.630] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:41:57.631] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-18 17:41:57.635] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:41:57.635] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-18 17:41:57.660] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:41:57.660] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-18 17:41:57.662] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:41:57.662] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/equinusocio.vsc-material-theme-2.7.0/out/src/material.theme.config
+[2019-02-18 17:41:57.668] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:41:57.668] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/pkief.material-icon-theme-3.6.3/out/src/extension
+[2019-02-18 17:41:57.691] [exthost] [info] eager extensions activated

@@ -1,0 +1,46 @@
+{
+    "telemetry.machineId": "ba76970dc3c8b308f915ffe6cc09bdb9c218a253b192aed98fbbb5751565094b",
+    "theme": "vs-dark",
+    "themeBackground": "#212122",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/usr/local/go",
+                "external": "file:///usr/local/go",
+                "path": "/usr/local/go",
+                "scheme": "file"
+            },
+            "backupPath": "/home/liuhy/.config/Code/Backups/fa839386e16f15c9cd14a03381c595b1",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1046
+            }
+        }
+    },
+    "pickerWorkingDir": "/home/liuhy/work/src",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/liuhy/c_lab/disque",
+            "file:///home/liuhy/work/src/resthub",
+            "file:///home/liuhy/work/src/disque-test",
+            "file:///home/liuhy/work/src/github.com/EverythingMe",
+            "file:///home/liuhy/work/src/watchhub",
+            "file:///home/liuhy/docker-env/fabric.1.3-trade-points",
+            "file:///home/liuhy/work/src/github.com/hyperledger/fabric-ca",
+            "file:///usr/local/go",
+            "file:///home/liuhy/work/src/authserver",
+            "file:///home/liuhy/work/src/github.com/hyperledger/fabric-sdk-go",
+            "file:///home/liuhy/work/src/github.com/hyperledger/fabric-lib-go",
+            "file:///home/liuhy/work/src/go-test",
+            "file:///home/liuhy/c_lab/net"
+        ],
+        "files2": [
+            "file:///home/liuhy/Desktop/test.sh"
+        ]
+    }
+}

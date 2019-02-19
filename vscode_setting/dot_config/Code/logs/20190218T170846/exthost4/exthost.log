@@ -1,0 +1,45 @@
+[2019-02-18 17:34:05.427] [exthost] [info] extension host started
+[2019-02-18 17:34:05.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:05.443] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-18 17:34:05.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:05.445] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-18 17:34:05.450] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:05.450] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-18 17:34:05.474] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:05.474] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-18 17:34:05.476] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:05.476] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/equinusocio.vsc-material-theme-2.7.0/out/src/material.theme.config
+[2019-02-18 17:34:05.482] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:05.482] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/pkief.material-icon-theme-3.6.3/out/src/extension
+[2019-02-18 17:34:05.504] [exthost] [info] eager extensions activated
+[2019-02-18 17:34:12.686] [exthost] [info] extension host started
+[2019-02-18 17:34:12.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:12.709] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-18 17:34:12.713] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:12.713] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-18 17:34:12.721] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:12.721] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-18 17:34:12.764] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:12.764] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-18 17:34:12.767] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:12.767] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/equinusocio.vsc-material-theme-2.7.0/out/src/material.theme.config
+[2019-02-18 17:34:12.777] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-18 17:34:12.777] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/pkief.material-icon-theme-3.6.3/out/src/extension
+[2019-02-18 17:34:12.834] [exthost] [info] eager extensions activated
+[2019-02-18 17:35:08.751] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.Go {"startup":false,"activationEvent":"onLanguage:go"}
+[2019-02-18 17:35:08.751] [exthost] [info] ExtensionService#loadCommonJSModule /home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goMain
+[2019-02-18 17:35:37.732] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 17:35:37.732] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go -o 18380
+
+[2019-02-18 17:35:41.661] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 17:35:41.661] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go -o 18336
+
+[2019-02-18 17:40:43.715] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.references-view {"startup":false,"activationEvent":"onCommand:references-view.find"}
+[2019-02-18 17:40:43.715] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.references-view/out/src/extension
+[2019-02-18 17:45:36.449] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 17:45:36.450] [exthost] [error] TypeError: Cannot read property 'forEach' of undefined
+	at convertToCodeSymbols (/home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goSymbol.js:23:19)
+	at provideWorkspaceSymbols.getWorkspaceSymbols.then.results (/home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goSymbol.js:44:13)
+[2019-02-18 17:46:32.612] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-02-18 17:46:32.612] [exthost] [error] Command failed: /home/liuhy/work/bin/godef -t -i -f /home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/server/idemix/mocks/User.go -o 3488
+

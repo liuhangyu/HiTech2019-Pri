@@ -1,0 +1,416 @@
+[Trace - 2:43:15 PM] Sending request 'initialize - (0)'.
+[Trace - 2:43:15 PM] Received response 'initialize - (0)' in 380ms.
+[Trace - 2:43:15 PM] Sending notification 'initialized'.
+[Trace - 2:43:15 PM] Sending notification 'workspace/didChangeConfiguration'.
+[Trace - 2:43:15 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:43:15 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:43:15 PM] Sending notification 'json/schemaAssociations'.
+[Trace - 2:43:15 PM] Received request 'client/registerCapability - (0)'.
+[Trace - 2:43:15 PM] Sending response 'client/registerCapability - (0)'. Processing request took 0ms
+[Trace - 2:43:15 PM] Sending request 'textDocument/documentColor - (1)'.
+[Trace - 2:43:15 PM] Sending request 'textDocument/documentColor - (2)'.
+[Trace - 2:43:15 PM] Received request 'vscode/content - (1)'.
+[Trace - 2:43:15 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:43:15 PM] Sending response 'vscode/content - (1)'. Processing request took 13ms
+[Trace - 2:43:15 PM] Received response 'textDocument/documentColor - (1)' in 115ms.
+[Trace - 2:43:15 PM] Received response 'textDocument/documentColor - (2)' in 115ms.
+[Trace - 2:43:15 PM] Sending request 'textDocument/foldingRange - (3)'.
+[Trace - 2:43:15 PM] Sending request 'textDocument/foldingRange - (4)'.
+[Trace - 2:43:15 PM] Received response 'textDocument/foldingRange - (3)' in 15ms.
+[Trace - 2:43:15 PM] Received response 'textDocument/foldingRange - (4)' in 17ms.
+[Trace - 2:43:15 PM] Sending request 'textDocument/hover - (5)'.
+[Trace - 2:43:15 PM] Received response 'textDocument/hover - (5)' in 2ms.
+[Trace - 2:43:16 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:43:16 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:43:16 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:43:30 PM] Sending request 'textDocument/hover - (6)'.
+[Trace - 2:43:30 PM] Received response 'textDocument/hover - (6)' in 1ms.
+[Trace - 2:43:49 PM] Sending notification 'textDocument/didClose'.
+[Trace - 2:43:49 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:44:34 PM] Sending request 'textDocument/documentColor - (7)'.
+[Trace - 2:44:34 PM] Received response 'textDocument/documentColor - (7)' in 24ms.
+[Trace - 2:44:34 PM] Sending request 'textDocument/foldingRange - (8)'.
+[Trace - 2:44:34 PM] Received response 'textDocument/foldingRange - (8)' in 8ms.
+[Trace - 2:45:58 PM] Sending request 'textDocument/documentColor - (9)'.
+[Trace - 2:45:58 PM] Received response 'textDocument/documentColor - (9)' in 21ms.
+[Trace - 2:45:58 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:45:58 PM] Sending request 'textDocument/documentColor - (10)'.
+[Trace - 2:45:58 PM] Received response 'textDocument/documentColor - (10)' in 13ms.
+[Trace - 2:45:58 PM] Sending request 'textDocument/foldingRange - (11)'.
+[Trace - 2:45:59 PM] Received response 'textDocument/foldingRange - (11)' in 33ms.
+[Trace - 2:45:59 PM] Sending request 'textDocument/foldingRange - (12)'.
+[Trace - 2:45:59 PM] Received response 'textDocument/foldingRange - (12)' in 2ms.
+[Trace - 2:45:59 PM] Sending request 'textDocument/hover - (13)'.
+[Trace - 2:45:59 PM] Received response 'textDocument/hover - (13)' in 2ms.
+[Trace - 2:45:59 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:45:59 PM] Sending request 'textDocument/hover - (14)'.
+[Trace - 2:45:59 PM] Received response 'textDocument/hover - (14)' in 2ms.
+[Trace - 2:46:00 PM] Sending request 'textDocument/hover - (15)'.
+[Trace - 2:46:00 PM] Received response 'textDocument/hover - (15)' in 1ms.
+[Trace - 2:46:01 PM] Sending request 'textDocument/hover - (16)'.
+[Trace - 2:46:01 PM] Received response 'textDocument/hover - (16)' in 1ms.
+[Trace - 2:46:02 PM] Sending request 'textDocument/hover - (17)'.
+[Trace - 2:46:02 PM] Received response 'textDocument/hover - (17)' in 2ms.
+[Trace - 2:46:02 PM] Sending request 'textDocument/hover - (18)'.
+[Trace - 2:46:02 PM] Received response 'textDocument/hover - (18)' in 2ms.
+[Trace - 2:46:15 PM] Sending notification 'textDocument/didClose'.
+[Trace - 2:46:15 PM] Sending notification 'json/schemaContent'.
+[Trace - 2:46:15 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:46:41 PM] Sending request 'textDocument/hover - (19)'.
+[Trace - 2:46:41 PM] Received response 'textDocument/hover - (19)' in 1ms.
+[Trace - 2:46:52 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:46:52 PM] Sending request 'textDocument/foldingRange - (20)'.
+[Trace - 2:46:52 PM] Received response 'textDocument/foldingRange - (20)' in 2ms.
+[Trace - 2:46:52 PM] Received request 'vscode/content - (2)'.
+[Trace - 2:46:52 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:46:52 PM] Sending response 'vscode/content - (2)'. Processing request took 5ms
+[Trace - 2:46:52 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:46:52 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:46:52 PM] Sending request 'textDocument/foldingRange - (21)'.
+[Trace - 2:46:52 PM] Received response 'textDocument/foldingRange - (21)' in 2ms.
+[Trace - 2:46:52 PM] Sending request 'textDocument/documentColor - (22)'.
+[Trace - 2:46:52 PM] Received response 'textDocument/documentColor - (22)' in 5ms.
+[Trace - 2:46:53 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:46:53 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:46:53 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:46:53 PM] Sending request 'textDocument/foldingRange - (23)'.
+[Trace - 2:46:53 PM] Received response 'textDocument/foldingRange - (23)' in 2ms.
+[Trace - 2:46:54 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:46:54 PM] Sending request 'textDocument/foldingRange - (24)'.
+[Trace - 2:46:54 PM] Received response 'textDocument/foldingRange - (24)' in 2ms.
+[Trace - 2:46:54 PM] Sending request 'textDocument/documentColor - (25)'.
+[Trace - 2:46:54 PM] Received response 'textDocument/documentColor - (25)' in 8ms.
+[Trace - 2:46:55 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:46:57 PM] Sending request 'textDocument/hover - (26)'.
+[Trace - 2:46:57 PM] Received response 'textDocument/hover - (26)' in 4ms.
+[Trace - 2:46:58 PM] Sending request 'textDocument/hover - (27)'.
+[Trace - 2:46:58 PM] Received response 'textDocument/hover - (27)' in 1ms.
+[Trace - 2:47:00 PM] Sending request 'textDocument/hover - (28)'.
+[Trace - 2:47:00 PM] Received response 'textDocument/hover - (28)' in 2ms.
+[Trace - 2:47:01 PM] Sending request 'textDocument/hover - (29)'.
+[Trace - 2:47:01 PM] Received response 'textDocument/hover - (29)' in 2ms.
+[Trace - 2:47:02 PM] Sending request 'textDocument/hover - (30)'.
+[Trace - 2:47:02 PM] Received response 'textDocument/hover - (30)' in 2ms.
+[Trace - 2:47:03 PM] Sending request 'textDocument/hover - (31)'.
+[Trace - 2:47:03 PM] Received response 'textDocument/hover - (31)' in 2ms.
+[Trace - 2:47:04 PM] Sending request 'textDocument/hover - (32)'.
+[Trace - 2:47:04 PM] Received response 'textDocument/hover - (32)' in 3ms.
+[Trace - 2:47:05 PM] Sending request 'textDocument/hover - (33)'.
+[Trace - 2:47:05 PM] Received response 'textDocument/hover - (33)' in 2ms.
+[Trace - 2:47:10 PM] Sending request 'textDocument/hover - (34)'.
+[Trace - 2:47:10 PM] Received response 'textDocument/hover - (34)' in 2ms.
+[Trace - 2:47:35 PM] Sending notification 'textDocument/didSave'.
+[Trace - 2:47:35 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+[Trace - 2:47:49 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:47:49 PM] Sending request 'textDocument/foldingRange - (35)'.
+[Trace - 2:47:49 PM] Received response 'textDocument/foldingRange - (35)' in 2ms.
+[Trace - 2:47:50 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:47:50 PM] Sending notification 'textDocument/didSave'.
+[Trace - 2:47:50 PM] Sending request 'textDocument/documentColor - (36)'.
+[Trace - 2:47:50 PM] Received response 'textDocument/documentColor - (36)' in 3ms.
+[Trace - 2:47:50 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+[Trace - 2:48:03 PM] Sending request 'textDocument/rangeFormatting - (37)'.
+[Trace - 2:48:03 PM] Received response 'textDocument/rangeFormatting - (37)' in 2ms.
+[Trace - 2:48:28 PM] Sending request 'textDocument/hover - (38)'.
+[Trace - 2:48:28 PM] Received response 'textDocument/hover - (38)' in 29ms.
+[Trace - 2:48:50 PM] Sending request 'textDocument/documentColor - (39)'.
+[Trace - 2:48:50 PM] Received response 'textDocument/documentColor - (39)' in 24ms.
+[Trace - 2:48:50 PM] Sending request 'textDocument/foldingRange - (40)'.
+[Trace - 2:48:50 PM] Received response 'textDocument/foldingRange - (40)' in 5ms.
+[Trace - 2:48:52 PM] Sending request 'textDocument/documentColor - (41)'.
+[Trace - 2:48:52 PM] Received response 'textDocument/documentColor - (41)' in 36ms.
+[Trace - 2:48:52 PM] Sending request 'textDocument/foldingRange - (42)'.
+[Trace - 2:48:52 PM] Received response 'textDocument/foldingRange - (42)' in 2ms.
+[Trace - 2:48:54 PM] Sending request 'textDocument/hover - (43)'.
+[Trace - 2:48:54 PM] Received response 'textDocument/hover - (43)' in 2ms.
+[Trace - 2:49:51 PM] Sending request 'textDocument/hover - (44)'.
+[Trace - 2:49:51 PM] Received response 'textDocument/hover - (44)' in 2ms.
+[Trace - 2:49:52 PM] Sending notification 'textDocument/didClose'.
+[Trace - 2:49:52 PM] Sending notification 'json/schemaContent'.
+[Trace - 2:49:52 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:50:00 PM] Sending request 'textDocument/hover - (45)'.
+[Trace - 2:50:00 PM] Received request 'vscode/content - (3)'.
+[Trace - 2:50:00 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:50:00 PM] Sending response 'vscode/content - (3)'. Processing request took 4ms
+[Trace - 2:50:00 PM] Received response 'textDocument/hover - (45)' in 8ms.
+[Trace - 2:50:00 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:50:01 PM] Sending request 'textDocument/hover - (46)'.
+[Trace - 2:50:01 PM] Received response 'textDocument/hover - (46)' in 2ms.
+[Trace - 2:50:01 PM] Sending request 'textDocument/hover - (47)'.
+[Trace - 2:50:01 PM] Received response 'textDocument/hover - (47)' in 3ms.
+[Trace - 2:50:01 PM] Sending request 'textDocument/hover - (48)'.
+[Trace - 2:50:01 PM] Received response 'textDocument/hover - (48)' in 4ms.
+[Trace - 2:50:03 PM] Sending request 'textDocument/hover - (49)'.
+[Trace - 2:50:03 PM] Received response 'textDocument/hover - (49)' in 4ms.
+[Trace - 2:50:04 PM] Sending request 'textDocument/hover - (50)'.
+[Trace - 2:50:04 PM] Received response 'textDocument/hover - (50)' in 16ms.
+[Trace - 2:50:04 PM] Sending request 'textDocument/hover - (51)'.
+[Trace - 2:50:04 PM] Received response 'textDocument/hover - (51)' in 15ms.
+[Trace - 2:50:05 PM] Sending request 'textDocument/hover - (52)'.
+[Trace - 2:50:05 PM] Received response 'textDocument/hover - (52)' in 3ms.
+[Trace - 2:50:27 PM] Sending request 'textDocument/hover - (53)'.
+[Trace - 2:50:27 PM] Received response 'textDocument/hover - (53)' in 2ms.
+[Trace - 2:50:27 PM] Sending request 'textDocument/hover - (54)'.
+[Trace - 2:50:27 PM] Received response 'textDocument/hover - (54)' in 3ms.
+[Trace - 2:50:33 PM] Sending request 'textDocument/documentColor - (55)'.
+[Trace - 2:50:33 PM] Received response 'textDocument/documentColor - (55)' in 9ms.
+[Trace - 2:50:33 PM] Sending request 'textDocument/foldingRange - (56)'.
+[Trace - 2:50:33 PM] Received response 'textDocument/foldingRange - (56)' in 4ms.
+[Trace - 2:50:34 PM] Sending request 'textDocument/hover - (57)'.
+[Trace - 2:50:34 PM] Received response 'textDocument/hover - (57)' in 7ms.
+[Trace - 2:50:35 PM] Sending request 'textDocument/hover - (58)'.
+[Trace - 2:50:35 PM] Received response 'textDocument/hover - (58)' in 2ms.
+[Trace - 2:50:35 PM] Sending request 'textDocument/hover - (59)'.
+[Trace - 2:50:35 PM] Received response 'textDocument/hover - (59)' in 2ms.
+[Trace - 2:50:36 PM] Sending request 'textDocument/hover - (60)'.
+[Trace - 2:50:36 PM] Received response 'textDocument/hover - (60)' in 1ms.
+[Trace - 2:50:38 PM] Sending request 'textDocument/hover - (61)'.
+[Trace - 2:50:38 PM] Received response 'textDocument/hover - (61)' in 2ms.
+[Trace - 2:51:14 PM] Sending request 'textDocument/documentColor - (62)'.
+[Trace - 2:51:14 PM] Received response 'textDocument/documentColor - (62)' in 7ms.
+[Trace - 2:51:14 PM] Sending request 'textDocument/foldingRange - (63)'.
+[Trace - 2:51:14 PM] Received response 'textDocument/foldingRange - (63)' in 4ms.
+[Trace - 2:51:14 PM] Sending request 'textDocument/hover - (64)'.
+[Trace - 2:51:14 PM] Received response 'textDocument/hover - (64)' in 1ms.
+[Trace - 2:51:15 PM] Sending request 'textDocument/hover - (65)'.
+[Trace - 2:51:15 PM] Received response 'textDocument/hover - (65)' in 1ms.
+[Trace - 2:51:17 PM] Sending request 'textDocument/hover - (66)'.
+[Trace - 2:51:17 PM] Received response 'textDocument/hover - (66)' in 1ms.
+[Trace - 2:51:17 PM] Sending request 'textDocument/hover - (67)'.
+[Trace - 2:51:17 PM] Received response 'textDocument/hover - (67)' in 2ms.
+[Trace - 2:51:18 PM] Sending request 'textDocument/hover - (68)'.
+[Trace - 2:51:18 PM] Received response 'textDocument/hover - (68)' in 2ms.
+[Trace - 2:51:19 PM] Sending request 'textDocument/hover - (69)'.
+[Trace - 2:51:19 PM] Received response 'textDocument/hover - (69)' in 2ms.
+[Trace - 2:51:19 PM] Sending request 'textDocument/hover - (70)'.
+[Trace - 2:51:19 PM] Received response 'textDocument/hover - (70)' in 2ms.
+[Trace - 2:51:21 PM] Sending request 'textDocument/hover - (71)'.
+[Trace - 2:51:21 PM] Received response 'textDocument/hover - (71)' in 2ms.
+[Trace - 2:51:21 PM] Sending request 'textDocument/hover - (72)'.
+[Trace - 2:51:21 PM] Received response 'textDocument/hover - (72)' in 1ms.
+[Trace - 2:51:22 PM] Sending request 'textDocument/hover - (73)'.
+[Trace - 2:51:22 PM] Received response 'textDocument/hover - (73)' in 2ms.
+[Trace - 2:51:50 PM] Sending request 'textDocument/hover - (74)'.
+[Trace - 2:51:50 PM] Received response 'textDocument/hover - (74)' in 1ms.
+[Trace - 2:51:55 PM] Sending request 'textDocument/hover - (75)'.
+[Trace - 2:51:55 PM] Received response 'textDocument/hover - (75)' in 2ms.
+[Trace - 2:51:58 PM] Sending request 'textDocument/hover - (76)'.
+[Trace - 2:51:58 PM] Received response 'textDocument/hover - (76)' in 2ms.
+[Trace - 2:52:26 PM] Sending request 'textDocument/hover - (77)'.
+[Trace - 2:52:26 PM] Received response 'textDocument/hover - (77)' in 3ms.
+[Trace - 2:52:38 PM] Sending request 'textDocument/hover - (78)'.
+[Trace - 2:52:38 PM] Received response 'textDocument/hover - (78)' in 1ms.
+[Trace - 2:52:38 PM] Sending request 'textDocument/hover - (79)'.
+[Trace - 2:52:38 PM] Received response 'textDocument/hover - (79)' in 2ms.
+[Trace - 2:52:39 PM] Sending request 'textDocument/hover - (80)'.
+[Trace - 2:52:39 PM] Received response 'textDocument/hover - (80)' in 1ms.
+[Trace - 2:52:40 PM] Sending request 'textDocument/hover - (81)'.
+[Trace - 2:52:40 PM] Received response 'textDocument/hover - (81)' in 2ms.
+[Trace - 2:52:43 PM] Sending request 'textDocument/hover - (82)'.
+[Trace - 2:52:43 PM] Received response 'textDocument/hover - (82)' in 2ms.
+[Trace - 2:52:44 PM] Sending request 'textDocument/hover - (83)'.
+[Trace - 2:52:44 PM] Received response 'textDocument/hover - (83)' in 1ms.
+[Trace - 2:52:44 PM] Sending request 'textDocument/hover - (84)'.
+[Trace - 2:52:44 PM] Received response 'textDocument/hover - (84)' in 1ms.
+[Trace - 2:53:00 PM] Sending notification 'textDocument/didClose'.
+[Trace - 2:53:00 PM] Sending notification 'json/schemaContent'.
+[Trace - 2:53:00 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:53:32 PM] Sending request 'textDocument/hover - (85)'.
+[Trace - 2:53:32 PM] Received request 'vscode/content - (4)'.
+[Trace - 2:53:32 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:53:32 PM] Sending response 'vscode/content - (4)'. Processing request took 4ms
+[Trace - 2:53:32 PM] Received response 'textDocument/hover - (85)' in 8ms.
+[Trace - 2:53:32 PM] Sending request 'textDocument/hover - (86)'.
+[Trace - 2:53:32 PM] Received response 'textDocument/hover - (86)' in 2ms.
+[Trace - 2:53:32 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:53:32 PM] Sending request 'textDocument/hover - (87)'.
+[Trace - 2:53:32 PM] Received response 'textDocument/hover - (87)' in 2ms.
+[Trace - 2:53:38 PM] Sending request 'textDocument/hover - (88)'.
+[Trace - 2:53:38 PM] Received response 'textDocument/hover - (88)' in 1ms.
+[Trace - 2:54:00 PM] Sending request 'textDocument/hover - (89)'.
+[Trace - 2:54:00 PM] Received response 'textDocument/hover - (89)' in 0ms.
+[Trace - 2:54:02 PM] Sending request 'textDocument/documentColor - (90)'.
+[Trace - 2:54:02 PM] Received response 'textDocument/documentColor - (90)' in 30ms.
+[Trace - 2:54:02 PM] Sending request 'textDocument/foldingRange - (91)'.
+[Trace - 2:54:02 PM] Received response 'textDocument/foldingRange - (91)' in 4ms.
+[Trace - 2:54:10 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:10 PM] Sending request 'textDocument/foldingRange - (92)'.
+[Trace - 2:54:10 PM] Received response 'textDocument/foldingRange - (92)' in 2ms.
+[Trace - 2:54:10 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:54:11 PM] Sending request 'textDocument/documentColor - (93)'.
+[Trace - 2:54:11 PM] Received response 'textDocument/documentColor - (93)' in 2ms.
+[Trace - 2:54:12 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:12 PM] Sending request 'textDocument/foldingRange - (94)'.
+[Trace - 2:54:12 PM] Received response 'textDocument/foldingRange - (94)' in 2ms.
+[Trace - 2:54:13 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:13 PM] Sending request 'textDocument/foldingRange - (95)'.
+[Trace - 2:54:13 PM] Received response 'textDocument/foldingRange - (95)' in 2ms.
+[Trace - 2:54:13 PM] Sending request 'textDocument/documentColor - (96)'.
+[Trace - 2:54:13 PM] Received response 'textDocument/documentColor - (96)' in 1ms.
+[Trace - 2:54:13 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:54:14 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:14 PM] Sending request 'textDocument/foldingRange - (97)'.
+[Trace - 2:54:14 PM] Received response 'textDocument/foldingRange - (97)' in 1ms.
+[Trace - 2:54:14 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:14 PM] Sending request 'textDocument/foldingRange - (98)'.
+[Trace - 2:54:14 PM] Received response 'textDocument/foldingRange - (98)' in 1ms.
+[Trace - 2:54:15 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:15 PM] Sending request 'textDocument/foldingRange - (99)'.
+[Trace - 2:54:15 PM] Received response 'textDocument/foldingRange - (99)' in 2ms.
+[Trace - 2:54:15 PM] Sending request 'textDocument/documentColor - (100)'.
+[Trace - 2:54:15 PM] Received response 'textDocument/documentColor - (100)' in 2ms.
+[Trace - 2:54:15 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:15 PM] Sending request 'textDocument/foldingRange - (101)'.
+[Trace - 2:54:15 PM] Received response 'textDocument/foldingRange - (101)' in 1ms.
+[Trace - 2:54:16 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:54:16 PM] Sending request 'textDocument/documentColor - (102)'.
+[Trace - 2:54:16 PM] Received response 'textDocument/documentColor - (102)' in 2ms.
+[Trace - 2:54:18 PM] Sending notification 'textDocument/didSave'.
+[Trace - 2:54:18 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+[Trace - 2:54:25 PM] Sending request 'textDocument/rangeFormatting - (103)'.
+[Trace - 2:54:25 PM] Received response 'textDocument/rangeFormatting - (103)' in 2ms.
+[Trace - 2:54:27 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:27 PM] Sending request 'textDocument/foldingRange - (104)'.
+[Trace - 2:54:27 PM] Received response 'textDocument/foldingRange - (104)' in 2ms.
+[Trace - 2:54:28 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:54:28 PM] Sending request 'textDocument/hover - (105)'.
+[Trace - 2:54:28 PM] Received response 'textDocument/hover - (105)' in 1ms.
+[Trace - 2:54:28 PM] Sending request 'textDocument/documentColor - (106)'.
+[Trace - 2:54:28 PM] Received response 'textDocument/documentColor - (106)' in 1ms.
+[Trace - 2:54:28 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:28 PM] Sending request 'textDocument/foldingRange - (107)'.
+[Trace - 2:54:28 PM] Received response 'textDocument/foldingRange - (107)' in 1ms.
+[Trace - 2:54:29 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:54:29 PM] Sending request 'textDocument/documentColor - (108)'.
+[Trace - 2:54:29 PM] Received response 'textDocument/documentColor - (108)' in 2ms.
+[Trace - 2:54:36 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:36 PM] Sending request 'textDocument/foldingRange - (109)'.
+[Trace - 2:54:36 PM] Received response 'textDocument/foldingRange - (109)' in 1ms.
+[Trace - 2:54:36 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:54:37 PM] Sending request 'textDocument/documentColor - (110)'.
+[Trace - 2:54:37 PM] Received response 'textDocument/documentColor - (110)' in 2ms.
+[Trace - 2:54:42 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:42 PM] Sending request 'textDocument/foldingRange - (111)'.
+[Trace - 2:54:42 PM] Received response 'textDocument/foldingRange - (111)' in 2ms.
+[Trace - 2:54:42 PM] Sending notification 'textDocument/didChange'.
+[Trace - 2:54:42 PM] Sending request 'textDocument/foldingRange - (112)'.
+[Trace - 2:54:42 PM] Received response 'textDocument/foldingRange - (112)' in 2ms.
+[Trace - 2:54:43 PM] Sending request 'textDocument/documentColor - (113)'.
+[Trace - 2:54:43 PM] Received response 'textDocument/documentColor - (113)' in 2ms.
+[Trace - 2:54:43 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:55:20 PM] Sending request 'textDocument/hover - (114)'.
+[Trace - 2:55:20 PM] Received response 'textDocument/hover - (114)' in 18ms.
+[Trace - 2:56:32 PM] Sending notification 'textDocument/didClose'.
+[Trace - 2:56:32 PM] Sending notification 'json/schemaContent'.
+[Trace - 2:56:32 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:59:52 PM] Sending request 'textDocument/documentColor - (115)'.
+[Trace - 2:59:52 PM] Received request 'vscode/content - (5)'.
+[Trace - 2:59:52 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 2:59:52 PM] Sending response 'vscode/content - (5)'. Processing request took 51ms
+[Trace - 2:59:52 PM] Received response 'textDocument/documentColor - (115)' in 93ms.
+[Trace - 2:59:52 PM] Sending request 'textDocument/foldingRange - (116)'.
+[Trace - 2:59:52 PM] Received response 'textDocument/foldingRange - (116)' in 8ms.
+[Trace - 2:59:52 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 2:59:53 PM] Sending request 'textDocument/hover - (117)'.
+[Trace - 2:59:53 PM] Received response 'textDocument/hover - (117)' in 2ms.
+[Trace - 2:59:54 PM] Sending request 'textDocument/hover - (118)'.
+[Trace - 2:59:54 PM] Received response 'textDocument/hover - (118)' in 1ms.
+[Trace - 2:59:54 PM] Sending request 'textDocument/hover - (119)'.
+[Trace - 2:59:54 PM] Received response 'textDocument/hover - (119)' in 1ms.
+[Trace - 3:01:56 PM] Sending request 'textDocument/hover - (120)'.
+[Trace - 3:01:56 PM] Received response 'textDocument/hover - (120)' in 12ms.
+[Trace - 3:01:57 PM] Sending request 'textDocument/hover - (121)'.
+[Trace - 3:01:57 PM] Received response 'textDocument/hover - (121)' in 1ms.
+[Trace - 3:01:58 PM] Sending request 'textDocument/hover - (122)'.
+[Trace - 3:01:58 PM] Received response 'textDocument/hover - (122)' in 2ms.
+[Trace - 3:02:52 PM] Sending notification 'textDocument/didClose'.
+[Trace - 3:02:52 PM] Sending notification 'json/schemaContent'.
+[Trace - 3:02:52 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:05:41 PM] Sending request 'textDocument/hover - (123)'.
+[Trace - 3:05:41 PM] Received request 'vscode/content - (6)'.
+[Trace - 3:05:41 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 3:05:41 PM] Sending response 'vscode/content - (6)'. Processing request took 2ms
+[Trace - 3:05:41 PM] Received response 'textDocument/hover - (123)' in 15ms.
+[Trace - 3:05:42 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:05:43 PM] Sending request 'textDocument/hover - (124)'.
+[Trace - 3:05:43 PM] Received response 'textDocument/hover - (124)' in 2ms.
+[Trace - 3:05:43 PM] Sending request 'textDocument/hover - (125)'.
+[Trace - 3:05:43 PM] Received response 'textDocument/hover - (125)' in 4ms.
+[Trace - 3:05:43 PM] Sending request 'textDocument/hover - (126)'.
+[Trace - 3:05:43 PM] Received response 'textDocument/hover - (126)' in 5ms.
+[Trace - 3:05:44 PM] Sending request 'textDocument/hover - (127)'.
+[Trace - 3:05:44 PM] Received response 'textDocument/hover - (127)' in 2ms.
+[Trace - 3:05:48 PM] Sending request 'textDocument/hover - (128)'.
+[Trace - 3:05:48 PM] Received response 'textDocument/hover - (128)' in 3ms.
+[Trace - 3:05:50 PM] Sending request 'textDocument/hover - (129)'.
+[Trace - 3:05:50 PM] Received response 'textDocument/hover - (129)' in 1ms.
+[Trace - 3:05:51 PM] Sending request 'textDocument/hover - (130)'.
+[Trace - 3:05:51 PM] Received response 'textDocument/hover - (130)' in 2ms.
+[Trace - 3:05:53 PM] Sending request 'textDocument/hover - (131)'.
+[Trace - 3:05:53 PM] Received response 'textDocument/hover - (131)' in 2ms.
+[Trace - 3:05:54 PM] Sending request 'textDocument/hover - (132)'.
+[Trace - 3:05:54 PM] Received response 'textDocument/hover - (132)' in 1ms.
+[Trace - 3:05:54 PM] Sending request 'textDocument/hover - (133)'.
+[Trace - 3:05:54 PM] Received response 'textDocument/hover - (133)' in 4ms.
+[Trace - 3:08:41 PM] Sending notification 'textDocument/didClose'.
+[Trace - 3:08:41 PM] Sending notification 'json/schemaContent'.
+[Trace - 3:08:41 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:12:59 PM] Sending request 'textDocument/hover - (134)'.
+[Trace - 3:12:59 PM] Received response 'textDocument/hover - (134)' in 12ms.
+[Trace - 3:13:02 PM] Sending request 'textDocument/documentColor - (135)'.
+[Trace - 3:13:02 PM] Received request 'vscode/content - (7)'.
+[Trace - 3:13:02 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 3:13:02 PM] Sending response 'vscode/content - (7)'. Processing request took 44ms
+[Trace - 3:13:02 PM] Received response 'textDocument/documentColor - (135)' in 50ms.
+[Trace - 3:13:02 PM] Sending request 'textDocument/foldingRange - (136)'.
+[Trace - 3:13:02 PM] Received response 'textDocument/foldingRange - (136)' in 5ms.
+[Trace - 3:13:03 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:13:06 PM] Sending notification 'textDocument/didClose'.
+[Trace - 3:13:06 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:13:08 PM] Sending notification 'textDocument/didClose'.
+[Trace - 3:13:08 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:16:02 PM] Sending notification 'textDocument/didClose'.
+[Trace - 3:16:02 PM] Sending notification 'json/schemaContent'.
+[Trace - 3:16:02 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 3:28:19 PM] Sending notification 'json/schemaAssociations'.
+[Trace - 4:01:18 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 4:01:18 PM] Sending request 'textDocument/documentColor - (137)'.
+[Trace - 4:01:18 PM] Received request 'vscode/content - (8)'.
+[Trace - 4:01:18 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 4:01:18 PM] Sending response 'vscode/content - (8)'. Processing request took 41ms
+[Trace - 4:01:19 PM] Received request 'vscode/content - (9)'.
+[Trace - 4:01:19 PM] Received request 'vscode/content - (10)'.
+[Trace - 4:01:19 PM] Received request 'vscode/content - (11)'.
+[Trace - 4:01:19 PM] Received request 'vscode/content - (12)'.
+[Trace - 4:01:19 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 4:01:19 PM] Sending response 'vscode/content - (9)'. Processing request took 38ms
+[Trace - 4:01:19 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 4:01:19 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 4:01:19 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 4:01:19 PM] Sending request 'textDocument/foldingRange - (138)'.
+[Trace - 4:01:19 PM] Sending response 'vscode/content - (10)'. Processing request took 52ms
+[Trace - 4:01:19 PM] Sending response 'vscode/content - (11)'. Processing request took 52ms
+[Trace - 4:01:19 PM] Sending response 'vscode/content - (12)'. Processing request took 52ms
+[Trace - 4:01:19 PM] Received response 'textDocument/foldingRange - (138)' in 6ms.
+[Trace - 4:01:19 PM] Received response 'textDocument/documentColor - (137)' in 273ms.
+[Trace - 4:01:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:01:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:01:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:01:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:01:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:01:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:04:18 PM] Sending notification 'textDocument/didClose'.
+[Trace - 4:04:18 PM] Sending notification 'json/schemaContent'.
+[Trace - 4:04:18 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:04:19 PM] Sending notification 'textDocument/didClose'.
+[Trace - 4:04:19 PM] Sending notification 'json/schemaContent'.
+[Trace - 4:04:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:04:19 PM] Sending notification 'textDocument/didClose'.
+[Trace - 4:04:19 PM] Sending notification 'json/schemaContent'.
+[Trace - 4:04:19 PM] Sending notification 'textDocument/didClose'.
+[Trace - 4:04:19 PM] Sending notification 'json/schemaContent'.
+[Trace - 4:04:19 PM] Sending notification 'textDocument/didClose'.
+[Trace - 4:04:19 PM] Sending notification 'json/schemaContent'.
+[Trace - 4:04:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:04:19 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 4:04:19 PM] Received notification 'textDocument/publishDiagnostics'.

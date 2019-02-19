@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Darcula Theme from IntelliJ",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "files.autoSaveDelay": 100,
+    "window.openFilesInNewWindow": "on",
+    "go.autocompleteUnimportedPackages": true,
+    "go.gocodeAutoBuild": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "json.trace.server": "messages",
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "material-icon-theme.folders.theme": "classic",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "editor.cursorWidth": 3,
+    "editor.fontSize": 15,
+    "editor.multiCursorModifier": "alt",
+    "vim.autoindent": false
+}

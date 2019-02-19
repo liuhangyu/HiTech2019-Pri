@@ -1,0 +1,1143 @@
+/home/liuhy/work/src/authserver/client>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/client/batch_register.go:11: should not use dot imports
+/home/liuhy/work/src/authserver/client/batch_register.go:18: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/authserver/client/batch_register.go:36: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/authserver/client/batch_register.go:37: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/authserver/client/batch_register.go:42: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/authserver/client/batch_register.go:42: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/authserver/client/batch_register.go:43: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/authserver/client/batch_register.go:43: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/authserver/client/batch_register.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/authserver/client/batch_register.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/authserver/client/common.go:14: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/authserver/client/common.go:14: exported const URLLOGIN_V1 should have comment (or a comment on this block) or be unexported
+/home/liuhy/work/src/authserver/client/common.go:15: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/authserver/client/common.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/authserver/client/common.go:17: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/authserver/client/common.go:20: exported type InvokeArgs should have comment or be unexported
+/home/liuhy/work/src/authserver/client/common.go:25: exported type QueryArgs should have comment or be unexported
+/home/liuhy/work/src/authserver/client/common.go:31: exported function GetNetClient should have comment or be unexported
+/home/liuhy/work/src/authserver/client/common.go:39: should drop = nil from declaration of var tr; it is the zero value
+/home/liuhy/work/src/authserver/client/common.go:104: exported function GetCommonNetClient should have comment or be unexported
+/home/liuhy/work/src/authserver/client/echo.go:9: should not use dot imports
+/home/liuhy/work/src/authserver/client/echo.go:28: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/authserver/client/login.go:11: should not use dot imports
+/home/liuhy/work/src/authserver/client/login.go:22: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/authserver/client/login.go:23: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/authserver/client/register.go:13: should not use dot imports
+/home/liuhy/work/src/authserver/client/register.go:17: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/authserver/client/verify.go:11: should not use dot imports
+/home/liuhy/work/src/authserver/client/verify.go:22: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/authserver/client/verify.go:23: should drop = nil from declaration of var err; it is the zero value
+
+/home/liuhy/work/src/authserver/client>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/client
+/home/liuhy/work/src/authserver/client/echo.go:14: main redeclared in this block
+/home/liuhy/work/src/authserver/client/login.go:14: main redeclared in this block
+/home/liuhy/work/src/authserver/client/register.go:17: GenerateRandomID redeclared in this block
+/home/liuhy/work/src/authserver/client/register.go:21: randomString redeclared in this block
+/home/liuhy/work/src/authserver/client/register.go:35: main redeclared in this block
+/home/liuhy/work/src/authserver/client/verify.go:14: main redeclared in this block
+
+/home/liuhy/work/src/authserver/client>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/client/echo.go:14: main redeclared in this block
+/home/liuhy/work/src/authserver/client/login.go:14: main redeclared in this block
+/home/liuhy/work/src/authserver/client/register.go:17: GenerateRandomID redeclared in this block
+/home/liuhy/work/src/authserver/client/register.go:21: randomString redeclared in this block
+/home/liuhy/work/src/authserver/client/register.go:35: main redeclared in this block
+/home/liuhy/work/src/authserver/client/verify.go:14: main redeclared in this block
+
+/home/liuhy/work/src/authserver/server>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/server/common.go:9: exported function Rlimit_init should have comment or be unexported
+/home/liuhy/work/src/authserver/server/common.go:9: don't use underscores in Go names; func Rlimit_init should be RlimitInit
+/home/liuhy/work/src/authserver/server/conf.go:19: type name will be used as server.ServerTLSConfig by other packages, and that stutters; consider calling this TLSConfig
+/home/liuhy/work/src/authserver/server/conf.go:26: exported type ServerConfig should have comment or be unexported
+/home/liuhy/work/src/authserver/server/conf.go:26: type name will be used as server.ServerConfig by other packages, and that stutters; consider calling this Config
+/home/liuhy/work/src/authserver/server/conf.go:32: struct field ServerId should be ServerID
+/home/liuhy/work/src/authserver/server/h-echo.go:8: comment on exported method SrvHttp.POST_Echo should be of the form "POST_Echo ..."
+/home/liuhy/work/src/authserver/server/h-echo.go:9: don't use underscores in Go names; method POST_Echo should be POSTEcho
+/home/liuhy/work/src/authserver/server/h-enroll.go:8: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-enroll.go:12: comment on exported method SrvHttp.POST_Enroll should be of the form "POST_Enroll ..."
+/home/liuhy/work/src/authserver/server/h-enroll.go:13: don't use underscores in Go names; method POST_Enroll should be POSTEnroll
+/home/liuhy/work/src/authserver/server/h-login.go:9: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-login.go:17: exported method SrvHttp.POST_Login should have comment or be unexported
+/home/liuhy/work/src/authserver/server/h-login.go:17: don't use underscores in Go names; method POST_Login should be POSTLogin
+/home/liuhy/work/src/authserver/server/h-login.go:20: should omit type bool from declaration of var isExist; it will be inferred from the right-hand side
+/home/liuhy/work/src/authserver/server/h-reenroll.go:8: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-reenroll.go:12: comment on exported method SrvHttp.POST_Reenroll should be of the form "POST_Reenroll ..."
+/home/liuhy/work/src/authserver/server/h-reenroll.go:13: don't use underscores in Go names; method POST_Reenroll should be POSTReenroll
+/home/liuhy/work/src/authserver/server/h-register.go:8: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-register.go:19: comment on exported method SrvHttp.POST_Register should be of the form "POST_Register ..."
+/home/liuhy/work/src/authserver/server/h-register.go:20: don't use underscores in Go names; method POST_Register should be POSTRegister
+/home/liuhy/work/src/authserver/server/h-register.go:21: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/authserver/server/h-register2.go:8: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-register2.go:13: comment on exported method SrvHttp.POST_Register2 should be of the form "POST_Register2 ..."
+/home/liuhy/work/src/authserver/server/h-register2.go:14: don't use underscores in Go names; method POST_Register2 should be POSTRegister2
+/home/liuhy/work/src/authserver/server/h-response.go:7: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-response.go:12: exported function Handle_Error should have comment or be unexported
+/home/liuhy/work/src/authserver/server/h-response.go:12: don't use underscores in Go names; func Handle_Error should be HandleError
+/home/liuhy/work/src/authserver/server/h-response.go:51: exported function ResponseLogicSucc should have comment or be unexported
+/home/liuhy/work/src/authserver/server/h-response.go:73: exported function ResponseLogicError should have comment or be unexported
+/home/liuhy/work/src/authserver/server/h-revoke.go:8: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-revoke.go:12: comment on exported method SrvHttp.POST_Revoke should be of the form "POST_Revoke ..."
+/home/liuhy/work/src/authserver/server/h-revoke.go:13: don't use underscores in Go names; method POST_Revoke should be POSTRevoke
+/home/liuhy/work/src/authserver/server/h-verify.go:8: should not use dot imports
+/home/liuhy/work/src/authserver/server/h-verify.go:11: exported method SrvHttp.POST_Verify should have comment or be unexported
+/home/liuhy/work/src/authserver/server/h-verify.go:11: don't use underscores in Go names; method POST_Verify should be POSTVerify
+/home/liuhy/work/src/authserver/server/mw-token.go:29: comment on exported type MW_Token should be of the form "MW_Token ..." (with optional leading article)
+/home/liuhy/work/src/authserver/server/mw-token.go:30: don't use underscores in Go names; type MW_Token should be MWToken
+/home/liuhy/work/src/authserver/server/mw-token.go:34: exported method MW_Token.Handle_Token should have comment or be unexported
+/home/liuhy/work/src/authserver/server/mw-token.go:34: don't use underscores in Go names; method Handle_Token should be HandleToken
+/home/liuhy/work/src/authserver/server/mw-token.go:73: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/authserver/server/mw-token.go:78: if block ends with a return statement, so drop this else and outdent its block (move short variable declaration to its own line if necessary)
+/home/liuhy/work/src/authserver/server/mw-token.go:92: exported method MW_Token.Handle_NoAuth should have comment or be unexported
+/home/liuhy/work/src/authserver/server/mw-token.go:92: don't use underscores in Go names; method Handle_NoAuth should be HandleNoAuth
+/home/liuhy/work/src/authserver/server/srvhttp.go:28: exported const ServerProfilePort should have comment or be unexported
+/home/liuhy/work/src/authserver/server/srvhttp.go:30: exported type SrvHttp should have comment or be unexported
+/home/liuhy/work/src/authserver/server/srvhttp.go:30: type SrvHttp should be SrvHTTP
+/home/liuhy/work/src/authserver/server/srvhttp.go:49: exported function NewServer should have comment or be unexported
+/home/liuhy/work/src/authserver/server/srvhttp.go:61: exported method SrvHttp.Start should have comment or be unexported
+/home/liuhy/work/src/authserver/server/srvhttp.go:246: should drop = nil from declaration of var exitErr; it is the zero value
+/home/liuhy/work/src/authserver/server/srvhttp.go:270: should drop = nil from declaration of var config; it is the zero value
+/home/liuhy/work/src/authserver/server/srvhttp.go:351: if block ends with a return statement, so drop this else and outdent its block
+
+/home/liuhy/work/src/authserver/server>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/server
+
+/home/liuhy/work/src/authserver/server>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:51: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:57: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:94: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:97: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:106: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:125: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:146: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:149: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:158: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:194: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:197: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:206: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:44: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:70: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:76: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:82: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:119: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:128: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:134: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:176: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:182: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:209: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:51: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:57: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:93: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:96: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:105: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:124: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:148: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:157: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:205: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:44: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:75: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:81: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:118: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:127: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:133: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:168: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:181: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:208: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:92: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:95: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:104: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:147: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:156: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:195: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:74: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:80: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:117: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:126: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:132: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:167: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:180: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:207: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:92: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:95: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:104: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:147: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:156: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:195: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:74: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:80: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:117: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:126: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:132: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:167: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:180: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:207: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:92: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:95: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:104: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:147: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:156: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:195: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:74: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:80: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:117: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:126: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:132: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:167: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:180: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:207: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:92: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:95: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:104: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:147: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:156: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:195: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:74: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:80: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:117: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:126: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:132: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:167: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:180: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:207: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:92: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:95: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:104: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:147: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:156: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:195: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:80: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:117: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:126: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:132: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:167: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:180: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:207: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:92: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:95: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:104: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:147: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:156: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:195: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:80: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:117: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:126: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:132: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:167: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:180: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:207: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:91: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:94: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:103: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:122: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:143: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:146: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:155: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:191: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:194: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:203: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:79: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:116: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:125: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:131: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:166: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:173: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:179: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:206: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:91: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:94: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:103: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:122: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:143: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:146: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:155: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:191: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:194: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:203: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:116: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:125: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:131: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:166: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:173: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:179: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:206: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:91: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:94: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:103: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:122: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:143: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:146: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:155: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:191: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:194: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:203: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:116: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:125: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:131: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:166: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:173: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:179: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:206: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:90: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:93: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:121: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:154: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:115: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:124: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:130: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:165: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:172: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:178: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:205: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:90: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:93: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:121: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:154: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:115: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:124: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:130: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:165: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:172: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:178: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:205: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:93: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:121: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:154: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:90: cannot use fmt.Errorf("failed to parse certificate: %s", err.Error()) (type error) as type string in argument to errors.New
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:90: cannot use fmt.Errorf("failed to parse certificate: %s", err.Error()) (type error) as type string in argument to errors.New
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:90: syntax error: unexpected ) at end of statement
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:93: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:90: syntax error: unexpected ) at end of statement
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:93: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:121: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:154: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:115: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:124: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:130: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:165: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:172: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:178: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:205: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:121: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:154: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:124: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:130: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:165: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:172: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:178: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:205: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:121: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:145: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:154: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:193: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:124: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:130: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:165: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:172: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:178: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:205: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:141: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:153: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:189: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:201: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:123: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:129: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:164: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:171: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:177: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:141: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:153: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:189: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:201: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:129: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:164: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:171: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:177: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:141: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:144: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:153: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:189: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:192: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:201: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:129: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:164: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:171: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:177: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:204: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:140: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:143: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:152: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:188: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:191: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:200: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:128: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:163: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:170: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:176: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:203: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:140: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:143: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:152: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:188: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:191: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:200: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:163: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:170: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:176: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:203: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:162: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:162: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: cannot use fmt.Errorf("failed to parse certificate: %s", err) (type error) as type string in argument to errors.New
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: cannot use fmt.Errorf("failed to parse certificate: %s", err) (type error) as type string in argument to errors.New
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: syntax error: unexpected ) at end of statement
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:139: syntax error: unexpected ) at end of statement
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:142: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:162: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:162: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:162: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:190: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:169: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:175: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:202: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:186: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:189: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:198: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:168: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:201: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:186: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:189: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:198: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:174: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:201: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:185: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:188: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:197: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:173: result of fmt.Errorf call not used
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:200: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:185: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:188: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:197: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:184: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:184: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:187: should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:184: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:184: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:184: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:184: syntax error: unexpected ) at end of statement
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:199: result of fmt.Errorf call not used
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:15: exported type CA should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: exported type FabricCAService should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:18: type name will be used as fabricca.FabricCAService by other packages, and that stutters; consider calling this Service
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:29: exported method FabricCAService.InitCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:50: exported method FabricCAService.CloseCa should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:56: exported method FabricCAService.Register should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:102: exported method FabricCAService.Register2 should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:120: exported method FabricCAService.Enroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:151: exported method FabricCAService.Reenroll should have comment or be unexported
+/home/liuhy/work/src/authserver/farbicca/fabricca.go:196: exported method FabricCAService.RemoveIdentity should have comment or be unexported
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goaTZefY/go-code-check authserver/farbicca
+
+/home/liuhy/work/src/authserver/farbicca>Finished running tool: /usr/local/go/bin/go vet ./...
+

@@ -1,0 +1,124 @@
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/cmd/fabric-ca-server
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:486: syntax error: unexpected newline, expecting name or (
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:487: syntax error: non-declaration statement outside function body
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/cmd/fabric-ca-server
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:486: syntax error: unexpected newline, expecting name or (
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:487: syntax error: non-declaration statement outside function body
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:486: syntax error: unexpected newline, expecting name or (
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:487: syntax error: non-declaration statement outside function body
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:486: syntax error: unexpected newline, expecting name or (
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server/config.go:487: syntax error: non-declaration statement outside function body
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil/util.go:258: log.Debugf evaluated but not used
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil/util.go:258: log.Debugf evaluated but not used
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-server>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/cmd/fabric-ca-server
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gofX88F4/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+

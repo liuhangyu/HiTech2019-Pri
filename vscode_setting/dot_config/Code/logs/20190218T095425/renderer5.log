@@ -1,0 +1,21 @@
+[2019-02-18 15:15:08.004] [renderer5] [info] no standard startup: not just one window
+[2019-02-18 15:15:15.888] [renderer5] [info] no standard startup: not just one window
+[2019-02-18 15:15:51.199] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:16:20.134] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:18:11.222] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:18:37.841] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:18:43.462] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:18:46.727] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:19:13.250] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:22:36.024] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:22:37.025] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:22:48.809] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:22:50.873] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:22:59.065] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:36:17.623] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 15:38:13.549] [renderer5] [error] Cannot read property 'forEach' of undefined: TypeError: Cannot read property 'forEach' of undefined
+	at convertToCodeSymbols (/home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goSymbol.js:23:19)
+	at provideWorkspaceSymbols.getWorkspaceSymbols.then.results (/home/liuhy/.vscode/extensions/ms-vscode.go-0.9.2/out/src/goSymbol.js:44:13)
+[2019-02-18 16:30:45.494] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 16:47:07.443] [renderer5] [error] An unknown error occurred. Please consult the log for more details.
+[2019-02-18 16:47:13.317] [renderer5] [error] An unknown error occurred. Please consult the log for more details.

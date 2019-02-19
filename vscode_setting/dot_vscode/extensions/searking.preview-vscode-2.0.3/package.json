@@ -1,0 +1,128 @@
+{
+	"name": "preview-vscode",
+	"displayName": "Preview",
+	"description": "A Markdown, ReStructured Text, HTML, Jade, Pug, Image, CSS, Mermaid previewer",
+	"version": "2.0.3",
+	"publisher": "searKing",
+	"author": "Haixin Chen",
+	"license": "MIT",
+	"readme": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/searKing/preview-vscode"
+	},
+	"galleryBanner": {
+		"color": "#78d6f0",
+		"theme": "light"
+	},
+	"bugs": "https://github.com/searKing/preview-vscode/issues",
+	"homepage": "https://github.com/searKing/preview-vscode/blob/master/README.md",
+	"icon": "images/icon.png",
+	"main": "./out/src/extension",
+	"engines": {
+		"vscode": "^0.10.8"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.preview",
+		"onCommand:extension.previewToSide"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "mermaid",
+				"aliases": [
+					"Mermaid",
+					"Mermaid Flowchart"
+				],
+				"extensions": [
+					".mmd",
+					".mermaid"
+				]
+			},
+			{
+				"id": "rst",
+				"aliases": [
+					"RST",
+					"ReStructured Text"
+				],
+				"extensions": [
+					".rst",
+					".rest",
+					".hrst"
+				]
+			},
+			{
+				"id": "jade",
+				"aliases": [
+					"Pug",
+					"PUG Text",
+					"Jade"
+				],
+				"extensions": [
+					".pug",
+					".jade"
+				]
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.preview",
+				"key": "ctrl+shift+v",
+				"mac": "cmd+shift+v",
+				"when": "!terminalFocus"
+			},
+			{
+				"command": "extension.previewToSide",
+				"key": "ctrl+k v",
+				"mac": "cmd+k v",
+				"when": "!terminalFocus"
+			}
+		],
+		"commands": [
+			{
+				"command": "extension.preview",
+				"title": "Toggle Preview",
+				"category": "Preview"
+			},
+			{
+				"command": "extension.previewToSide",
+				"title": "Open Preview to the Side",
+				"category": "Preview"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"acorn": "^6.0.4",
+		"file-url": "^2.0.2",
+		"jade": "^1.11.0",
+		"markdown-it-anchor": "^5.0.2",
+		"markdown2html-less": "1.0.0",
+		"pug": "^2.0.3",
+		"rst2mdown": "^0.1.0"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.119",
+		"@types/mocha": "^5.2.5",
+		"@types/node": "^10.12.14",
+		"electron-rebuild": "^1.8.2",
+		"jslint": "^0.12.0",
+		"mermaid": "^7.1.2",
+		"tslint": "^5.11.0",
+		"typescript": "^3.2.2",
+		"vscode": "^1.1.26"
+	},
+	"__metadata": {
+		"id": "03e014a0-a915-4672-92b3-77e5a6ad72df",
+		"publisherId": "ad4b4a51-ddda-46ca-be95-1f009d9f031f",
+		"publisherDisplayName": "Haixin Chen"
+	}
+}

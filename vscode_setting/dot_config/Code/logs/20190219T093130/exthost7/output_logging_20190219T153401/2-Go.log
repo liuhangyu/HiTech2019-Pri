@@ -1,0 +1,68 @@
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/disque-test/down.go:1: expected 'package', found 'EOF'
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+/home/liuhy/work/src/disque-test/down.go:1: expected 'package', found 'EOF'
+
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/disque-test/down.go:14: comment on exported var Downloader should be of the form "Downloader ..."
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/disque-test/down.go:14: comment on exported var Downloader should be of the form "Downloader ..."
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/disque-test/down.go:14: comment on exported var Downloader should be of the form "Downloader ..."
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/disque-test/down.go:14: comment on exported var Downloader should be of the form "Downloader ..."
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/disque-test/down.go:14: comment on exported var Downloader should be of the form "Downloader ..."
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/disque-test/down.go:14: comment on exported var Downloader should be of the form "Downloader ..."
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+
+/home/liuhy/work/src/disque-test>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goY0zidr/go-code-check disque-test
+/home/liuhy/work/src/disque-test/foo.go:19: main redeclared in this block
+/home/liuhy/work/src/disque-test/manger.go:10: main redeclared in this block
+

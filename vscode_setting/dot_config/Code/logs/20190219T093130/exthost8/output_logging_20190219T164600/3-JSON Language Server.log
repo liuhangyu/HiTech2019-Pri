@@ -1,0 +1,30 @@
+[Trace - 5:00:19 PM] Sending request 'initialize - (0)'.
+[Trace - 5:00:20 PM] Received response 'initialize - (0)' in 309ms.
+[Trace - 5:00:20 PM] Sending notification 'initialized'.
+[Trace - 5:00:20 PM] Sending notification 'workspace/didChangeConfiguration'.
+[Trace - 5:00:20 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 5:00:20 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 5:00:20 PM] Sending notification 'json/schemaAssociations'.
+[Trace - 5:00:20 PM] Received request 'client/registerCapability - (0)'.
+[Trace - 5:00:20 PM] Sending response 'client/registerCapability - (0)'. Processing request took 0ms
+[Trace - 5:00:20 PM] Sending request 'textDocument/documentColor - (1)'.
+[Trace - 5:00:20 PM] Sending request 'textDocument/documentColor - (2)'.
+[Trace - 5:00:20 PM] Received request 'vscode/content - (1)'.
+[Trace - 5:00:20 PM] Sending notification 'textDocument/didOpen'.
+[Trace - 5:00:20 PM] Sending response 'vscode/content - (1)'. Processing request took 18ms
+[Trace - 5:00:20 PM] Received response 'textDocument/documentColor - (1)' in 83ms.
+[Trace - 5:00:20 PM] Received response 'textDocument/documentColor - (2)' in 82ms.
+[Trace - 5:00:20 PM] Sending request 'textDocument/foldingRange - (3)'.
+[Trace - 5:00:20 PM] Sending request 'textDocument/foldingRange - (4)'.
+[Trace - 5:00:20 PM] Sending request 'textDocument/hover - (5)'.
+[Trace - 5:00:20 PM] Received response 'textDocument/foldingRange - (3)' in 22ms.
+[Trace - 5:00:20 PM] Received response 'textDocument/foldingRange - (4)' in 26ms.
+[Trace - 5:00:20 PM] Received response 'textDocument/hover - (5)' in 26ms.
+[Trace - 5:00:20 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 5:00:20 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 5:00:20 PM] Received notification 'textDocument/publishDiagnostics'.
+[Trace - 5:00:20 PM] Sending request 'textDocument/hover - (6)'.
+[Trace - 5:00:20 PM] Received response 'textDocument/hover - (6)' in 6ms.
+[Trace - 5:03:20 PM] Sending notification 'textDocument/didClose'.
+[Trace - 5:03:20 PM] Sending notification 'json/schemaContent'.
+[Trace - 5:03:20 PM] Received notification 'textDocument/publishDiagnostics'.

@@ -1,0 +1,164 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/liuhy/c_lab/disque
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :src/ack.h
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.c
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :deps/linenoise/linenoise.c
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :deps/linenoise/linenoise.c
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :deps/linenoise/linenoise.c
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.h
+> git show :deps/linenoise/linenoise.c
+> git show :deps/linenoise/linenoise.h
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.c
+> git show :deps/linenoise/example.c
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.c
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/.gitignore
+> git show :deps/linenoise/example.c
+> git show :deps/Makefile
+> git show :deps/README.md
+> git show :deps/Makefile
+> git show :deps/linenoise/Makefile
+> git show :deps/linenoise/README.markdown
+> git show :deps/linenoise/Makefile
+> git show :deps/linenoise/linenoise.h
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.h
+> git show :deps/linenoise/linenoise.c
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.h
+> git show :deps/linenoise/example.c
+> git show :deps/linenoise/linenoise.c
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :deps/jemalloc/src/arena.c
+> git show :deps/jemalloc/src/arena.d
+> git ls-files --stage -- deps/jemalloc/src/
+> git show :deps/jemalloc/src/bitmap.c
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :tests/support/cluster.tcl
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :tests/cluster/cluster.tcl
+> git show :tests/cluster/cluster.tcl
+> git show :tests/cluster/run.tcl
+> git show :tests/cluster/cluster.tcl
+> git show :tests/cluster/tests/00-base.tcl
+> git show :README.md
+> git show :runtest
+> git show :tests/cluster/run.tcl
+> git show :tests/cluster/tests/09-jscan.tcl
+> git show :src/ack.c
+> git show :src/ack.h
+> git show :src/ack.c
+> git show :src/job.c
+> git check-ignore -z --stdin
+> git show :src/ack.c
+> git show :src/job.c
+> git show :src/ack.c
+> git show :src/job.c
+> git show :src/ack.c
+> git show :src/job.c
+> git show :src/job.c
+> git show :src/ack.c
+> git show :src/00-RELEASENOTES
+> git show :src/ack.c
+> git show :src/ack.h
+> git show :src/ack.c
+> git check-ignore -z --stdin
+> git show :src/lzf.h
+> git show :src/lzf_c.c
+> git show :src/adlist.c
+> git show :src/ack.c
+> git show :src/anet.c
+> git show :src/ack.c
+> git show :src/queue.c
+> git check-ignore -z --stdin
+> git show :src/dict.c
+> git show :src/queue.c
+> git show :src/ack.c
+> git show :src/queue.c
+> git show :src/ack.c
+> git show :src/queue.c
+> git show :src/ack.c
+> git show :src/queue.c
+> git show :src/ack.c
+> git show :src/queue.c
+> git show :src/ack.c
+> git show :src/queue.c
+> git show :src/ack.c
+> git show :src/job.h
+> git show :src/ack.c
+> git show :src/queue.c
+> git show :src/job.h
+> git show :src/server.h
+> git check-ignore -z --stdin
+> git show :src/job.h
+> git show :src/queue.c
+> git show :src/skiplist.c
+> git show :src/queue.c
+> git show :src/server.h
+> git show :src/queue.c
+> git show :src/ack.c
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :src/ack.c
+> git show :src/bio.h
+> git show :src/bio.c

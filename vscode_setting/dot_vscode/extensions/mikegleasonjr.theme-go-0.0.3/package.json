@@ -1,0 +1,37 @@
+{
+	"name": "theme-go",
+	"displayName": "Go Themes (playground & src)",
+	"description": "Themes that minics play.golang.org and golang.org/src/",
+	"version": "0.0.3",
+	"publisher": "mikegleasonjr",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikegleasonjr/vscode-theme-go.git"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Go - Playground",
+				"uiTheme": "vs",
+				"path": "./themes/playground.tmTheme"
+			},
+			{
+				"label": "Go - Sources",
+				"uiTheme": "vs",
+				"path": "./themes/sources.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a502c6b3-0162-48ff-8e66-031ef5ee6cc5",
+		"publisherId": "20abe582-3353-4ba9-895f-4882e8ca8cd9",
+		"publisherDisplayName": "Mike Gleason jr Couturier"
+	}
+}

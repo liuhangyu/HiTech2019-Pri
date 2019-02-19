@@ -1,0 +1,37 @@
+{
+	"name": "theme-darcula",
+	"displayName": "Darcula Theme",
+	"description": "Darcula Theme for VS Code based on IntelliJ Darcula",
+	"version": "0.0.4",
+	"publisher": "ceps",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "images/darcula.svg",
+	"galleryBanner": {
+		"color": "#1f5b93",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/Beatusvir/vs-code-darcula/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Beatusvir/vs-code-darcula"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "676fa8e5-f781-48e4-a6eb-c703f8111d87",
+		"publisherId": "08da0eab-61b8-4810-b9cb-e373845d5c16",
+		"publisherDisplayName": "ceps"
+	}
+}

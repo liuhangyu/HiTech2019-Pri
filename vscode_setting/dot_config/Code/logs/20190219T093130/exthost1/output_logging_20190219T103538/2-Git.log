@@ -1,0 +1,77 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/liuhy/work/src/resthub
+> git status -z -u
+> git show :main/config/fabric.yaml
+> git symbolic-ref --short HEAD
+> git rev-parse liuhy
+> git rev-parse --symbolic-full-name liuhy@{u}
+> git rev-list --left-right liuhy...refs/remotes/origin/liuhy
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :client/batch_invoke.go
+> git show :client/batch_sync_invoke.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse liuhy
+> git rev-parse --symbolic-full-name liuhy@{u}
+> git rev-list --left-right liuhy...refs/remotes/origin/liuhy
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse liuhy
+> git rev-parse --symbolic-full-name liuhy@{u}
+> git rev-list --left-right liuhy...refs/remotes/origin/liuhy
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :client/batch_sync_invoke.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse liuhy
+> git rev-parse --symbolic-full-name liuhy@{u}
+> git rev-list --left-right liuhy...refs/remotes/origin/liuhy
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse liuhy
+> git rev-parse --symbolic-full-name liuhy@{u}
+> git rev-list --left-right liuhy...refs/remotes/origin/liuhy
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :vendor/golang.org/x/sys/windows/asm_windows_386.s
+> git show :vendor/golang.org/x/sys/windows/asm_windows_amd64.s
+> git show :vendor/golang.org/x/sys/windows/asm_windows_amd64.s
+> git show :vendor/golang.org/x/sys/windows/asm_windows_386.s
+> git show :client/batch_invoke.go
+> git show :main/main.go
+> git show :server/srvhttp.go
+> git show :until/config.go
+> git check-ignore -z --stdin
+> git show :server/srvhttp.go
+> git check-ignore -z --stdin
+> git show :until/config.go
+> git show :server/srvhttp.go
+> git show :farbicca/fabricca.go
+> git check-ignore -z --stdin
+> git show :server/srvhttp.go
+> git show :until/config.go
+> git show :server/srvhttp.go
+> git check-ignore -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :server/srvhttp.go
+> git show :server/srvhttp.go
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git

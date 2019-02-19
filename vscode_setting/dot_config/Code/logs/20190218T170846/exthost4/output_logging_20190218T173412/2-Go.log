@@ -1,0 +1,85 @@
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/array.go:16: var typeSqlScanner should be typeSQLScanner
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/array.go:564: should omit type string from declaration of var del; it will be inferred from the right-hand side
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:33: error strings should not be capitalized or end with punctuation or a newline
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:34: error strings should not be capitalized or end with punctuation or a newline
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:38: var errNoLastInsertId should be errNoLastInsertID
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:84: exported type Dialer should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:232: exported function Open should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:236: exported function DialOpen should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:305: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:498: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:503: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:510: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:532: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:567: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:588: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:593: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:623: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:740: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:762: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:774: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:793: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:814: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:827: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:850: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:863: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:870: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:885: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:895: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:906: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:943: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:965: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:986: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:992: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1053: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1083: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1137: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1178: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1218: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1260: should omit type []byte from declaration of var colFmtDataAllBinary; it will be inferred from the right-hand side
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1263: should omit type []byte from declaration of var colFmtDataAllText; it will be inferred from the right-hand side
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1385: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1530: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1565: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1621: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1633: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1648: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1674: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1692: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1707: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/conn.go:1736: receiver name cn should be consistent with previous receiver name c for conn
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:63: comment on exported function NewListenerConn should be of the form "NewListenerConn ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:217: comment on exported method ListenerConn.Listen should be of the form "Listen ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:222: comment on exported method ListenerConn.Unlisten should be of the form "Unlisten ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:227: comment on exported method ListenerConn.UnlistenAll should be of the form "UnlistenAll ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:270: comment on exported method ListenerConn.ExecSimpleQuery should be of the form "ExecSimpleQuery ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:336: exported method ListenerConn.Close should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:349: comment on exported method ListenerConn.Err should be of the form "Err ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:357: exported var ErrChannelAlreadyOpen should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:358: exported var ErrChannelNotOpen should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:360: exported type ListenerEventType should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:363: comment on exported const ListenerEventConnected should be of the form "ListenerEventConnected ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:367: comment on exported const ListenerEventDisconnected should be of the form "ListenerEventDisconnected ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:372: comment on exported const ListenerEventReconnected should be of the form "ListenerEventReconnected ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:377: comment on exported const ListenerEventConnectionAttemptFailed should be of the form "ListenerEventConnectionAttemptFailed ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:383: exported type EventCallbackType should have comment or be unexported
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:457: comment on exported method Listener.NotificationChannel should be of the form "NotificationChannel ..."
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq/notify.go:642: should omit values from range; this loop is equivalent to `for range ...`
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go1N4uN5/go-code-check github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/vendor/github.com/lib/pq>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go1N4uN5/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go1N4uN5/go-code-check github.com/hyperledger/fabric-ca/lib/dbutil
+
+/home/liuhy/work/src/github.com/hyperledger/fabric-ca/lib/dbutil>Finished running tool: /usr/local/go/bin/go vet ./...
+

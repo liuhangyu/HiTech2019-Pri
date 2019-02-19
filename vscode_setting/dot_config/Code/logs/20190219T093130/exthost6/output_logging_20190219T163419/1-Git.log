@@ -1,0 +1,25 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/liuhy/work/src/resthub
+> git rev-parse --show-toplevel
+> git status -z -u
+fatal: not a git repository (or any of the parent directories): .git
+> git symbolic-ref --short HEAD
+> git rev-parse liuhy
+> git rev-parse --symbolic-full-name liuhy@{u}
+> git rev-list --left-right liuhy...refs/remotes/origin/liuhy
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :client/batch_invoke.go
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :server/common.go
+> git show :server/h-chktxid2.go

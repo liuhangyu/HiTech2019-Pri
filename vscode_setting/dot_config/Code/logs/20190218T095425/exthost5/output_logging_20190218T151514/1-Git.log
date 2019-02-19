@@ -1,0 +1,264 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/liuhy/work/src/github.com/hyperledger/fabric-ca
+> git status -z -u
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :cmd/fabric-ca-server/main.go
+> git show :cmd/fabric-ca-server/servercmd.go
+> git show :cmd/fabric-ca-server/config.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :cmd/fabric-ca-server/main.go
+> git show :cmd/fabric-ca-server/servercmd.go
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :cmd/fabric-ca-server/main.go
+> git show :cmd/fabric-ca-server/servercmd.go
+> git show :lib/server.go
+> git check-ignore -z --stdin
+> git show :lib/ca.go
+> git show :lib/dbutil/util.go
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :lib/dbutil/util.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :cmd/fabric-ca-server/config.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :lib/dbutil/util.go
+> git status -z -u
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :lib/ca.go
+> git show :lib/server.go
+> git show :lib/ca.go
+> git show :lib/server.go
+> git show :lib/dbutil/util.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :vendor/github.com/jmoiron/sqlx/sqlx.go
+> git check-ignore -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :vendor/github.com/lib/pq/notify.go
+> git check-ignore -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :vendor/github.com/jmoiron/sqlx/sqlx.go
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :vendor/github.com/lib/pq/notify.go
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :vendor/github.com/lib/pq/notify.go
+> git show :vendor/github.com/lib/pq/conn.go
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :vendor/github.com/lib/pq/conn.go
+> git show :lib/dbutil/util.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release-1.4
+> git rev-parse --symbolic-full-name release-1.4@{u}
+> git rev-list --left-right release-1.4...refs/remotes/origin/release-1.4
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :lib/server.go
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :lib/server.go
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :util/util.go
+> git show :lib/dbutil/util.go
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :vendor/github.com/jmoiron/sqlx/sqlx.go
+> git show :lib/dbutil/util.go
+> git show :util/util.go
+> git show :lib/server.go
+> git show :util/util.go
+> git show :lib/dbutil/util.go
+> git check-ignore -z --stdin

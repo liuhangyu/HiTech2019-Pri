@@ -1,0 +1,12 @@
+/usr/local/go/src/strconv>Finished running tool: /home/liuhy/work/bin/golint
+/usr/local/go/src/strconv/atof.go:258: receiver name d should be consistent with previous receiver name b for decimal
+/usr/local/go/src/strconv/extfloat.go:148: should replace mant += 1 with mant++
+/usr/local/go/src/strconv/extfloat.go:277: should replace errors += 1 with errors++
+/usr/local/go/src/strconv/extfloat.go:301: don't use underscores in Go names; var mant_extra should be mantExtra
+/usr/local/go/src/strconv/internal_test.go:9: exported func NewDecimal returns unexported type *strconv.decimal, which can be annoying to use
+/usr/local/go/src/strconv/itoa.go:89: don't use underscores in Go names; func parameter append_ should be append
+
+/usr/local/go/src/strconv>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-gopqsrQx/go-code-check .
+
+/usr/local/go/src/strconv>Finished running tool: /usr/local/go/bin/go vet ./...
+

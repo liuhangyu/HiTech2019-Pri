@@ -1,0 +1,7 @@
+[2019-02-18 09:54:30.648] [renderer1] [info] standard startup
+[2019-02-18 15:08:57.950] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at o._assertNotDisposed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1271:162)
+    at o.validateRange (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1281:571)
+    at o._applyEdits (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1285:930)
+    at o.applyEdits (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1285:530)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3447:783

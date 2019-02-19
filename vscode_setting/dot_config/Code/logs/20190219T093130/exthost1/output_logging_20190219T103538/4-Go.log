@@ -1,0 +1,387 @@
+/home/liuhy/work/src/resthub/client>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/resthub/client/batch_echo.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_echo.go:18: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_echo.go:19: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_echo.go:25: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_echo.go:25: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:26: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_echo.go:26: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:49: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:50: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_info.go:24: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_info.go:25: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_info.go:27: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_info.go:27: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:28: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_info.go:28: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:52: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:53: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_invoke.go:20: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_invoke.go:21: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_invoke.go:27: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_invoke.go:27: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:28: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_invoke.go:28: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:155: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/batch_query.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_query.go:18: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_query.go:19: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_query.go:25: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_query.go:25: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:26: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_query.go:26: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:89: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:90: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:11: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_register.go:18: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/resthub/client/batch_register.go:36: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_register.go:37: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_register.go:42: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_register.go:42: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:43: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_register.go:43: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:14: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:19: exported function ReqTxId should have comment or be unexported
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:19: func ReqTxId should be ReqTxID
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:20: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:57: var txIdResp should be txIDResp
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:63: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:135: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:136: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:139: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:139: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:140: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:140: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:161: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:162: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:197: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/block.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/ccinvoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/ccquery.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx.go:23: var chkTxId should be chkTxID
+/home/liuhy/work/src/resthub/client/chktx.go:88: var chkTxId should be chkTxID
+/home/liuhy/work/src/resthub/client/chktx2.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx2.go:24: var chk2TxId should be chk2TxID
+/home/liuhy/work/src/resthub/client/chktx2.go:89: var chk2TxId should be chk2TxID
+/home/liuhy/work/src/resthub/client/common.go:14: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:14: exported const URLINVOKE_V1 should have comment (or a comment on this block) or be unexported
+/home/liuhy/work/src/resthub/client/common.go:15: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:18: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:19: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:20: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:22: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:23: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:24: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:25: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:26: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:27: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:29: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:32: exported type InvokeArgs should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:37: exported type QueryArgs should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:42: exported function GetNetClient should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:50: should drop = nil from declaration of var tr; it is the zero value
+/home/liuhy/work/src/resthub/client/common.go:112: exported function GetCommonNetClient should have comment or be unexported
+/home/liuhy/work/src/resthub/client/echo.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/info.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/listencc.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/register.go:13: should not use dot imports
+/home/liuhy/work/src/resthub/client/register.go:17: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/resthub/client/reqtx.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/reqtx.go:22: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/reqtx.go:87: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/tx.go:9: should not use dot imports
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-govGCAJJ/go-code-check resthub/client
+/home/liuhy/work/src/resthub/client/batch_info.go:21: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_invoke.go:19: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_query.go:17: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_register.go:35: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:134: main redeclared in this block
+/home/liuhy/work/src/resthub/client/block.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccinvoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: too many errors
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/resthub/client/batch_info.go:21: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_invoke.go:19: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_query.go:17: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_register.go:35: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:134: main redeclared in this block
+/home/liuhy/work/src/resthub/client/block.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccinvoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: too many errors
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/resthub/client/batch_echo.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_echo.go:18: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_echo.go:19: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_echo.go:25: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_echo.go:25: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:26: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_echo.go:26: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:49: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:50: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_info.go:24: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_info.go:25: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_info.go:27: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_info.go:27: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:28: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_info.go:28: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:52: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:53: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_invoke.go:20: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_invoke.go:21: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_invoke.go:27: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_invoke.go:27: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:28: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_invoke.go:28: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:155: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/batch_query.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_query.go:18: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_query.go:19: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_query.go:25: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_query.go:25: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:26: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_query.go:26: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:89: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:90: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:11: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_register.go:18: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/resthub/client/batch_register.go:36: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_register.go:37: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_register.go:42: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_register.go:42: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:43: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_register.go:43: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:19: exported function ReqTxId should have comment or be unexported
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:19: func ReqTxId should be ReqTxID
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:20: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:57: var txIdResp should be txIDResp
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:63: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:135: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:136: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:139: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:139: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:140: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:140: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:161: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:162: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:197: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/block.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/ccinvoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/ccquery.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx.go:23: var chkTxId should be chkTxID
+/home/liuhy/work/src/resthub/client/chktx.go:88: var chkTxId should be chkTxID
+/home/liuhy/work/src/resthub/client/chktx2.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx2.go:24: var chk2TxId should be chk2TxID
+/home/liuhy/work/src/resthub/client/chktx2.go:89: var chk2TxId should be chk2TxID
+/home/liuhy/work/src/resthub/client/common.go:14: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:14: exported const URLINVOKE_V1 should have comment (or a comment on this block) or be unexported
+/home/liuhy/work/src/resthub/client/common.go:15: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:18: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:19: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:20: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:22: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:23: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:24: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:25: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:26: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:27: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:29: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:32: exported type InvokeArgs should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:37: exported type QueryArgs should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:42: exported function GetNetClient should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:50: should drop = nil from declaration of var tr; it is the zero value
+/home/liuhy/work/src/resthub/client/common.go:112: exported function GetCommonNetClient should have comment or be unexported
+/home/liuhy/work/src/resthub/client/echo.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/info.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/listencc.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/register.go:13: should not use dot imports
+/home/liuhy/work/src/resthub/client/register.go:17: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/resthub/client/reqtx.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/reqtx.go:22: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/reqtx.go:87: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/tx.go:9: should not use dot imports
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-govGCAJJ/go-code-check resthub/client
+/home/liuhy/work/src/resthub/client/batch_info.go:21: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_invoke.go:19: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_query.go:17: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_register.go:35: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:134: main redeclared in this block
+/home/liuhy/work/src/resthub/client/block.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccinvoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: too many errors
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/resthub/client/batch_info.go:21: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_invoke.go:19: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_query.go:17: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_register.go:35: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:134: main redeclared in this block
+/home/liuhy/work/src/resthub/client/block.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccinvoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: too many errors
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/resthub/client/batch_echo.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_echo.go:18: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_echo.go:19: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_echo.go:25: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_echo.go:25: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:26: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_echo.go:26: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:49: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_echo.go:50: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_info.go:24: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_info.go:25: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_info.go:27: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_info.go:27: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:28: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_info.go:28: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:52: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_info.go:53: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_invoke.go:20: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_invoke.go:21: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_invoke.go:27: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_invoke.go:27: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:28: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_invoke.go:28: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_invoke.go:155: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/batch_query.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_query.go:18: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_query.go:19: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_query.go:25: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_query.go:25: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:26: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_query.go:26: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:89: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_query.go:90: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:11: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_register.go:18: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/resthub/client/batch_register.go:36: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_register.go:37: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_register.go:42: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_register.go:42: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:43: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_register.go:43: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:92: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_register.go:93: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:12: should not use dot imports
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:19: exported function ReqTxId should have comment or be unexported
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:19: func ReqTxId should be ReqTxID
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:20: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:57: var txIdResp should be txIDResp
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:63: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:135: should omit type int from declaration of var oGo; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:136: should omit type int from declaration of var oFuncs; it will be inferred from the right-hand side
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:139: don't use underscores in Go names; var success_sum should be successSum
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:139: should drop = 0 from declaration of var success_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:140: don't use underscores in Go names; var failed_sum should be failedSum
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:140: should drop = 0 from declaration of var failed_sum; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:161: should drop = nil from declaration of var client; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:162: should drop = nil from declaration of var err; it is the zero value
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:197: if block ends with a return statement, so drop this else and outdent its block
+/home/liuhy/work/src/resthub/client/block.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/ccinvoke.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/ccquery.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx.go:23: var chkTxId should be chkTxID
+/home/liuhy/work/src/resthub/client/chktx.go:88: var chkTxId should be chkTxID
+/home/liuhy/work/src/resthub/client/chktx2.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/chktx2.go:24: var chk2TxId should be chk2TxID
+/home/liuhy/work/src/resthub/client/chktx2.go:89: var chk2TxId should be chk2TxID
+/home/liuhy/work/src/resthub/client/common.go:14: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:14: exported const URLINVOKE_V1 should have comment (or a comment on this block) or be unexported
+/home/liuhy/work/src/resthub/client/common.go:15: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:16: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:18: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:19: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:20: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:22: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:23: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:24: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:25: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:26: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:27: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:29: don't use ALL_CAPS in Go names; use CamelCase
+/home/liuhy/work/src/resthub/client/common.go:32: exported type InvokeArgs should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:37: exported type QueryArgs should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:42: exported function GetNetClient should have comment or be unexported
+/home/liuhy/work/src/resthub/client/common.go:50: should drop = nil from declaration of var tr; it is the zero value
+/home/liuhy/work/src/resthub/client/common.go:112: exported function GetCommonNetClient should have comment or be unexported
+/home/liuhy/work/src/resthub/client/echo.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/info.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/listencc.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/register.go:13: should not use dot imports
+/home/liuhy/work/src/resthub/client/register.go:17: exported function GenerateRandomID should have comment or be unexported
+/home/liuhy/work/src/resthub/client/reqtx.go:9: should not use dot imports
+/home/liuhy/work/src/resthub/client/reqtx.go:22: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/reqtx.go:87: var reqTxId should be reqTxID
+/home/liuhy/work/src/resthub/client/tx.go:9: should not use dot imports
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-govGCAJJ/go-code-check resthub/client
+/home/liuhy/work/src/resthub/client/batch_info.go:21: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_invoke.go:19: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_query.go:17: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_register.go:35: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:134: main redeclared in this block
+/home/liuhy/work/src/resthub/client/block.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccinvoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: too many errors
+
+/home/liuhy/work/src/resthub/client>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/resthub/client/batch_info.go:21: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_invoke.go:19: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_query.go:17: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_register.go:35: main redeclared in this block
+/home/liuhy/work/src/resthub/client/batch_sync_invoke.go:134: main redeclared in this block
+/home/liuhy/work/src/resthub/client/block.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_async_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/cc_sync_invoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccinvoke.go:14: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: main redeclared in this block
+/home/liuhy/work/src/resthub/client/ccquery.go:15: too many errors
+

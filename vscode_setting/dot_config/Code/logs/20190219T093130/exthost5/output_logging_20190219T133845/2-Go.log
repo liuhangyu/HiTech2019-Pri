@@ -1,0 +1,361 @@
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan/disqchan.go:43: comment on exported var GetTimeout should be of the form "GetTimeout ..."
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go test -c -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/disqchan
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:12: cannot find package "github.com/garyburd/redigo/redis" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:12: cannot find package "github.com/garyburd/redigo/redis" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:27: method Id should be ID
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:53: struct field NodeId should be NodeID
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:258: const HelloVersionId should be HelloVersionID
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:258: exported const HelloVersionId should have comment or be unexported
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:274: var versionId should be versionID
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/pool.go:29: struct field Id should be ID
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/pool.go:54: exported method Pool.Size should have comment or be unexported
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:12: cannot find package "github.com/garyburd/redigo/redis" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/disque
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disque/disque.go:12: cannot find package "github.com/garyburd/redigo/redis" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/disqchan
+can't load package: package github.com/EverythingMe/go-disque/disqchan: found packages disqchan (disqchan.go) and main (main.go) in /home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan
+
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/disqchan
+can't load package: package github.com/EverythingMe/go-disque/disqchan: found packages disqchan (disqchan.go) and main (main.go) in /home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan
+
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/disqchan
+can't load package: package github.com/EverythingMe/go-disque/disqchan: found packages disqchan (disqchan.go) and main (main.go) in /home/liuhy/work/src/github.com/EverythingMe/go-disque/disqchan
+
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: expected 'STRING', found 'go'
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:11: expected 'STRING', found 'defer'
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:14: expected 'STRING', found 'for'
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:17: expected ')', found 'EOF'
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: expected 'STRING', found 'go'
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:11: expected 'STRING', found 'defer'
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:14: expected 'STRING', found 'for'
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:17: expected ')', found 'EOF'
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: should not use dot imports
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: should not use dot imports
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:5: should not use dot imports
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:7: should not use dot imports
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:7: cannot find package "github.com/EverythingMe/go-disque/disque/dischan" in any of:
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:5: cannot find package "go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:7: cannot find package "github.com/EverythingMe/go-disque/disque/dischan" in any of:
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:5: cannot find package "go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:5: should not use dot imports
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:5: cannot find package "go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:5: cannot find package "go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:9: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:9: undefined: NewChan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:9: syntax error: missing channel element type
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:9: syntax error: missing channel element type
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:9: undefined: dischan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:9: undefined: dischan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "go-disque/disque/dischan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "githubgo-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "githubgo-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: dischan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:8: undefined: dischan
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:6: cannot find package "github.com/EverythingMe/go-disque/disque/disqchan" in any of:
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:22: undefined: NewChan
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:22: undefined: name
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:29: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:43: undefined: time
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:45: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:22: undefined: NewChan
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:22: undefined: name
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:29: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:43: undefined: time
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:45: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:22: undefined: name
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:29: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:45: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:22: undefined: name
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:29: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:45: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: t
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: multiple-value fmt.Printf() in single-value context
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: format
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: a
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: multiple-value fmt.Printf() in single-value context
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: format
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:33: undefined: a
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:37: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:49: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:50: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:47: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: N
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:47: undefined: t
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: N
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main/main.go:46: undefined: N
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /home/liuhy/work/bin/golint
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go vet ./...
+
+/home/liuhy/work/src/github.com/EverythingMe/go-disque/main>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-goP3m88q/go-code-check github.com/EverythingMe/go-disque/main
+
